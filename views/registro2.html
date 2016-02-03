@@ -1,0 +1,165 @@
+            <h2 align=center>Registrar</h2>
+
+            <div class="col-md-10 col-md-offset-1">
+                <form name="f1" method="POST" action="/registro2">
+                    <div class="row">   
+                        <label for="Dominio" class="labelRegistro col-xs-3">Dominio</label>
+                        <input class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required pattern="^[A-Z]{3}\d{3}$">
+                    </div>
+                    <div class="row">
+                        <label for="Marca" class="labelRegistro col-xs-3">Marca</label>
+                        <select class="form-control col-xs-9 selector" name="Marca" onchange="cambia_modelo()" required>
+                                    <option value="">Seleccione Marca</option>
+
+                                    <option value="Agrale">Agrale</option>
+
+                                    <option value="AlfaRomeo">Alfa Romeo</option>
+              
+                                    <option value="Audi">Audi</option>
+
+                                    <option value="Asia">Asia</option>
+                                          
+                                    <option value="BMW">BMW</option>
+
+                                    <option value="Chery">Chery</option>
+
+                                    <option value="Crevrolet">Crevrolet</option>
+                                          
+                                    <option value="Chrysler">Chrysler</option>
+                                    
+                                    <option value="Dacia">Dacia</option>
+
+                                    <option value="Daewoo">Daewoo</option>
+
+                                    <option value="Daihatsu">Daihatsu</option>
+
+                                    <option value="Fiat">Fiat</option>
+                                          
+                                    <option value="Ford">Ford</option>
+
+                                    <option value="Honda">Honda</option>
+
+                                    <option value="Hyundai">Hyundai</option>
+
+                                    <option value="Isuzu">Isuzu</option>
+
+                                    <option value="Iveco">Iveco</option>
+
+                                    <option value="Jeep">Jeep</option>
+
+                                    <option value="Kia"></option>
+
+                                    <option value="Land Rover"></option>
+
+                                    <option value="Mazda"></option>
+
+                                    <option value="Mercedes Benz">Mercedes Benz</option>
+
+                                    <option value="Mini Cooper">Mini Cooper</option>
+
+                                    <option value="Mitsubishi">Mitsubishi</option>
+
+                                    <option value="New Holland">New Holland</option>
+
+                                    <option value="Nissan">Nissan</option>
+                                          
+                                    <option value="Peugeot">Peugeot</option>
+
+                                    <option value="Renault">Renault</option>
+
+                                    <option value="Rover">Rover</option>
+
+                                    <option value="Saab">Saab</option>
+
+                                    <option value="Scania">Scania</option>
+
+                                    <option value="Seat">Seat</option>
+
+                                    <option value="Ssang Yong">Ssang Yong</option>
+
+                                    <option value="Subaru">Subaru</option>
+
+                                    <option value="Suzuki">Suzuki</option>
+                                          
+                                    <option value="Toyota">Toyota</option>
+
+                                    <option value="Valmet">Valmet</option>
+
+                                    <option value="Volvo">Volvo</option>
+                                          
+                                    <option value="VolksWagen">VolksWagen</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="Modelo" class="labelRegistro col-xs-3">Modelo</label>
+                        <select class="form-control col-xs-9 selector" name="Modelo" required>
+                            <option value="">Seleccione Modelo</option>
+                        </select>
+                    </div>
+                    <div class="row">   
+                        <label for="Combustible" class="labelRegistro col-xs-3">Combustible</label>
+                        <select class="form-control col-xs-9 selector" name="Combustible" required>
+                            <option value="Nafta">Nafta</option>
+                            <option value="Diesel">Diesel</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <label for="Anio" class="labelRegistro col-xs-3">Año</label>
+                        <input class="form-control col-xs-9" id="registro" type="text" name="Anio" placeholder="Ingresar Año" required>
+                    </div>
+                    <div class="row">   
+                        <label for="Test" class="labelRegistro col-xs-3">Test</label>
+                        <input class="form-control col-xs-9" id="registro" type="text" name="Test" placeholder="Ingresar Nombre archivo Test">
+                    </div>
+                    <div class="row">   
+                        <label for="Mecanico" class="labelRegistro col-xs-3">Mecanico</label>
+                        <select class="form-control col-xs-9 selector" name="Mecanico" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+
+                    <a onclick="catalogo()" class="btn btn-danger" style="margin:20px">Baterias</a>
+                    <input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
+                    <div class="row hide" id="catalogo">
+                    
+                {{#each bat}}
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <h3 style="background: rgba(256, 256, 256, 0.50); color:#333">Caden</h3>
+                            <img src={{this.imagen}} class="img-responsive">
+                            <hr>
+                            <div class="caption">
+                                <div>       
+                                <span>Codigo:  </span><span>{{this._id}}</span>
+                                <div>
+                                </div>
+                                <span>Marca:  </span><span>{{this.marca}}</span>
+                                <div>
+                                </div>
+                                <span>Precio:  </span><span>{{this.precio}}</span>
+                                <div>
+                                </div>
+                                <span>Forma de pago:  </span><span>3, 6, 12 cuotas</span>
+                                <div>
+                                </div>
+                                <hr>
+                                <label class="btn btn-danger"  style="">
+                                <input  type="radio" name="Bateria"  value={{this._id}} > SELECCIONAR </label>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                {{/each}}
+                    
+                <input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
+                </div>
+
+                
+                </form>
+            </div>
+
+    <script src="public/js/select.js"></script>
+

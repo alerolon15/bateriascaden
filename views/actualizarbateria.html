@@ -1,0 +1,76 @@
+			<h2 align=center>Actualizar</h2>
+
+			<div class="col-md-10 col-md-offset-1">
+				<form name="f1" method="POST" action="/actualizarbat">
+					<div class="row">	
+						<label for="Codigo" class="labelRegistro col-xs-3">Codigo</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Codigo" placeholder="Ingresar Codigo" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required disabled value={{bateria._id}}>
+					</div>
+					<div class="row">
+						<label for="Marca" class="labelRegistro col-xs-3">Marca</label>
+						<select class="form-control col-xs-9 selector" name="Marca" required value={{bateria.marca}}>
+
+									<option value={{bateria.marca}} selected>{{bateria.marca}}</option>
+
+									<option value="">Seleccione Marca</option>
+
+									<option value="Caden">Caden</option>
+
+							        <option value="Moura">Moura</option>
+              
+							        <option value="AC Delco">AC Delco</option>
+						</select>
+					</div>
+					<div class="row">
+						<label for="Modelo" class="labelRegistro col-xs-3">Modelo</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Modelo" placeholder="Ingresar Modelo" value={{bateria.modelo}}>
+					</div>
+					<div class="row">	
+						<label for="Voltaje" class="labelRegistro col-xs-3">Voltaje</label>
+						<select class="form-control col-xs-9 selector" name="Voltaje" value={{bateria.voltaje}}>
+							<option value={{bateria.voltaje}} selected>{{bateria.voltaje}}</option>
+							<option value="">Seleccione Voltaje</option>
+							<option value="6">6</option>
+							<option value="12">12</option>
+						</select>
+					</div>
+					<div class="row">
+						<label for="Amperaje" class="labelRegistro col-xs-3">Amperaje</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Amperaje" placeholder="Ingresar Amperaje" value={{bateria.amperaje}}>
+					</div>
+					<div class="row">
+						<label for="CCA" class="labelRegistro col-xs-3">CCA</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="CCA" placeholder="Ingresar CCA" value={{bateria.cca}}>
+					</div>
+					<div class="row">
+						<label for="RC" class="labelRegistro col-xs-3">RC</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="RC" placeholder="Ingresar RC" value={{bateria.rc}}>
+					</div>
+					<div class="row">	
+						<label for="Borne" class="labelRegistro col-xs-3">Borne</label>
+						<select class="form-control col-xs-9 selector" name="Borne" value={{bateria.borne}}>
+							<option value={{bateria.borne}} selected>{{bateria.borne}}</option>
+							<option value="">Seleccione lado del borne</option>
+							<option value="Izquierda">Izquierda</option>
+							<option value="Derecha">Derecha</option>
+						</select>
+					</div>
+					<div class="row">
+						<label for="Medidas" class="labelRegistro col-xs-3">Medidas</label>
+					</div>
+					<div class="row">
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Alto" placeholder="Ingresar Alto" value={{bateria.medidas.alto}}>
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Ancho" placeholder="Ingresar Ancho" value={{bateria.medidas.ancho}}>
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Largo" placeholder="Ingresar Largo" value={{bateria.medidas.largo}}>
+					</div>
+					<div class="row">
+						<label for="Precio" class="labelRegistro col-xs-3">Precio</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Precio" placeholder="Ingresar Precio"  value={{bateria.precio}}>
+					</div>
+					<br>
+					<input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
+				
+				</form>
+			</div>
+
+

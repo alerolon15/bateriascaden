@@ -1,0 +1,28 @@
+{{#each bat}}
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">Caden</h3>
+							<img src={{this.Imagen}} class="img-responsive">
+							<hr>
+							<div class="caption">
+								<div>		
+									<span>Codigo:  </span><span>{{this.Nombre}}</span>
+								<div>
+								</div>
+									<span>Amperaje:  </span><span>{{this.Caracteristica}}</span>
+								<div>
+								</div>
+									<span>Precio:  </span><span>${{this.Precio}}</span>
+								<div>
+								</div>
+									<span>Forma de pago:  </span><span>3, 6, 12</span>
+								<div>
+								</div>
+								<hr>	
+									<label class="btn btn-danger"  style="">
+									<input  type="radio" name="Bateria"  value={{this.Nombre}} > SELECCIONAR </label>
+							</div>
+						</div>
+					</div>
+					</div>
+{{/each}}

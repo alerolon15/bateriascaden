@@ -1,0 +1,51 @@
+
+
+
+			<div class="col-md-6 col-md-offset-3">
+				<div class="box">
+					<h2>Registro del Auto</h2>
+					<div class="table-responsive">          
+					    <table class="table">
+						      <thead class="tablecolor">
+						        <tr>
+						        	<th>Dominio:</th>
+						            <td>{{auto.Dominio}}</td>
+						        </tr>
+						        <tr>
+						        	<th>Marca: </th>	
+						            <td>{{auto.Marca}}</td>
+						        </tr>
+						        <tr>
+						            <th>Modelo: </th>
+						            <td>{{auto.Modelo}}</td>
+						        </tr>
+						        <tr>
+						            <th>Combustible: </th>
+						            <td>{{auto.Combustible}}</td>
+						        </tr>
+						        <tr>
+						            <th>Año: </th>
+						            <td>{{auto.Anio}}</td>
+						        </tr> 
+						        <tr>
+						            <th>Bateria: </th>
+						            <td>{{auto.Bateria}}</td>
+						        </tr>
+						        <tr>
+						            <th>Test: </th>
+						            <td><a href={{urltest}}{{auto.Test}}.xls>{{auto.Test}}.xls</a></td>
+						        </tr>
+						        <tr>
+						            <th>Mecanico: </th>
+						            <td>{{auto.Mecanico}}</td>
+						        </tr> 
+						      </thead>
+					    </table>
+					</div>
+					<form action="/actualizar" method="POST">
+					<a href="/" type="button" class="btn btn-danger">volver</a>
+					<input class="form-control hide" id="domin" type="text" name="Dominio" placeholder="Ingresar patente" style="text-transform:uppercase; margin:15px auto;" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus  required pattern="^[A-Z]{3}\d{3}$" value={{auto.Dominio}}>
+					<input href="" class="btn btn-danger" type="submit" value="editar"></input>
+					</form>
+				</div>
+			</div>

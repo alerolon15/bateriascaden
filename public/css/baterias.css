@@ -1,0 +1,50 @@
+#optionsRadios {
+	
+}
+form{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	margin-top: 5%;
+	background: rgba(0, 0, 0, 0.20);
+}
+.box {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	margin-top: 5%;
+	background: rgba(0, 0, 0, 0.20);
+}
+.table {
+	font-size: 26px;
+	font-weight: 700;
+	margin-top:30px;
+	text-align: center;
+}
+img{
+	width: 150px;
+	height: auto;
+}
+p{
+	font-size: 20px;
+}
+.tablecolor{
+	background-color: #fff;
+}
+h2 {
+	margin: 0px;
+	font-weight: 700;
+}
+.thumbnail{
+	background: rgba(0, 0, 0, 0.20);
+	color: #000;
+}
+.caption{
+	background: rgba(256, 256, 256, 0.50);
+	font-weight: 500;
+	margin:0 auto;
+}
+
+.caption span {
+	font-size: 1.2em;
+}

@@ -1,0 +1,460 @@
+[
+    {
+    "_id": "MI18FD",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "45",
+    "cca": "425",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "170",
+      "ancho": "175",
+      "largo": "212"
+    },
+    "precio": "$2.013"
+    },
+    {
+    "_id": "MI22ED",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "50",
+    "cca": "500",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "175",
+      "largo": "212"
+    },
+    "precio": "$2.571"
+    },
+    {
+    "_id": "MI20GD",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "52",
+    "cca": "450",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "212"
+    },
+    "precio": "$2.421"
+    },
+    {
+    "_id": "MI22GD",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "55",
+    "cca": "500",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "246"
+    },
+    "precio": "$2.723"
+    },
+    {
+    "_id": "MI22GE",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "55",
+    "cca": "500",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "246"
+    },
+    "precio": "$2.723"
+    },
+    {
+    "_id": "MI26AD",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "60",
+    "cca": "590",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "175",
+      "largo": "242"
+    },
+    "precio": "$2.838"
+    },
+    {
+    "_id": "MI26AE",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "60",
+    "cca": "590",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "175",
+      "largo": "242"
+    },
+    "precio": "$2.838"
+    },
+    {
+    "_id": "MI24KD",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "62",
+    "cca": "580",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "200",
+      "ancho": "170",
+      "largo": "260"
+    },
+    "precio": "$3.081"
+    },
+    {
+    "_id": "MI28KE",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "65",
+    "cca": "620",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "265"
+    },
+    "precio": "$3.269"
+    },
+    {
+    "_id": "MI28KD",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "65",
+    "cca": "620",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "265"
+    },
+    "precio": "$3.269"
+    },
+    {
+    "_id": "MI28TD ",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "80",
+    "cca": "600",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "232",
+      "ancho": "162",
+      "largo": "296"
+    },
+    "precio": "$4.131"
+    },
+    {
+    "_id": "MI28TE",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "80",
+    "cca": "600",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "232",
+      "ancho": "162",
+      "largo": "296"
+    },
+    "precio": "$4.131"
+    },
+    {
+    "_id": "MI30QD",
+    "marca": "Moura",
+    "modelo": "MOURA INTELIGENTE",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "95",
+    "cca": "850",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "192",
+      "ancho": "173",
+      "largo": "375"
+    },
+    "precio": "$4.421"
+    },
+    {
+    "_id": "MSA23UE",
+    "marca": "Moura",
+    "modelo": "MOURA SILVER ALLOY",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "23",
+    "cca": "275",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "186",
+      "ancho": "130",
+      "largo": "197"
+    },
+    "precio": "$1.936"
+    },
+    {
+    "_id": "MSA30LD",
+    "marca": "Moura",
+    "modelo": "MOURA SILVER ALLOY",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "75",
+    "cca": "700",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "175",
+      "largo": "282"
+    },
+    "precio": "$3.790"
+    },
+   {
+    "_id": "MSA30LE",
+    "marca": "Moura",
+    "modelo": "MOURA SILVER ALLOY",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "75",
+    "cca": "700",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "175",
+      "largo": "282"
+    },
+    "precio": "$3.790"
+    },
+    {
+    "_id": "MSA18SD",
+    "marca": "Moura",
+    "modelo": "LINEA ASIATICA",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "40",
+    "cca": "250",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "229",
+      "ancho": "130",
+      "largo": "197"
+    },
+    "precio": "$2.488"
+    },
+    {
+    "_id": "MSA22JD",
+    "marca": "Moura",
+    "modelo": "LINEA ASIATICA",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "50",
+    "cca": "430",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "223",
+      "ancho": "129",
+      "largo": "238"
+    },
+    "precio": "$2.705"
+    },
+    {
+    "_id": "MSA22RD",
+    "marca": "Moura",
+    "modelo": "LINEA ASIATICA",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "65",
+    "cca": "590",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "225",
+      "ancho": "173",
+      "largo": "260"
+    },
+    "precio": "$3.450"
+    },
+    {
+    "_id": "MSA22RE",
+    "marca": "Moura",
+    "modelo": "LINEA ASIATICA",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "65",
+    "cca": "590",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "225",
+      "ancho": "173",
+      "largo": "260"
+    },
+    "precio": "$3.450"
+    },
+    {
+    "_id": "MSA30HA ",
+    "marca": "Moura",
+    "modelo": "LINEA PESADA",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "100",
+    "cca": "800",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "237",
+      "ancho": "172",
+      "largo": "329"
+    },
+    "precio": "$4.615"
+    },
+    {
+    "_id": "MSA42BD ",
+    "marca": "Moura",
+    "modelo": "LINEA PESADA",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "150",
+    "cca": "950",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "235",
+      "ancho": "211",
+      "largo": "512"
+    },
+    "precio": "$6.183"
+    },
+    {
+    "_id": "MSA46BD ",
+    "marca": "Moura",
+    "modelo": "LINEA PESADA",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "170",
+    "cca": "1050",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "235",
+      "ancho": "211",
+      "largo": "512"
+    },
+    "precio": "$6.812"
+    },
+    {
+    "_id": "MSA58PD",
+    "marca": "Moura",
+    "modelo": "LINEA PESADA",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "200",
+    "cca": "1150",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "230",
+      "ancho": "290",
+      "largo": "516"
+    },
+    "precio": "$7.246"
+    },
+    {
+    "_id": "LDB100HD",
+    "marca": "Moura",
+    "modelo": "LINEA LONG DIESEL",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "100",
+    "cca": "800",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "237",
+      "ancho": "172",
+      "largo": "329"
+    },
+    "precio": ""
+    },
+    {
+    "_id": "LDB150BD",
+    "marca": "Moura",
+    "modelo": "LINEA LONG DIESEL",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "150",
+    "cca": "950",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "235",
+      "ancho": "211",
+      "largo": "512"
+    },
+    "precio": ""
+    },
+    {
+    "_id": "LDB170BD",
+    "marca": "Moura",
+    "modelo": "LINEA LONG DIESEL",
+    "imagen": "public/images/moura.png",
+    "voltaje": "12",
+    "amperaje": "170",
+    "cca": "1050",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "235",
+      "ancho": "211",
+      "largo": "512"
+    },
+    "precio": ""
+    },

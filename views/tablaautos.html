@@ -1,0 +1,51 @@
+<form id="edit" action="/actualizarautos" method="POST">
+<input class="form-control " id="domin" type="text" name="Dominio" placeholder="Hacer click en un dominio para seleccionar" style="text-transform:uppercase; margin:15px auto; float:left" onkeyup="javascript:this.value=this.value.toUpperCase();" required pattern="^[A-Z]{3}\d{3}$">
+<input style="float:left; margin: 10px" href="" class="btn btn-danger" type="submit" value="EDITAR" style="margin-top:20px"></input></form>
+
+<form id="edit" action="/borrarautos" method="POST">
+<input class="form-control hide" id="domindel" type="text" name="Dominio" placeholder="Hacer click en un dominio para seleccionar" style="text-transform:uppercase; margin:15px auto; float:left" onkeyup="javascript:this.value=this.value.toUpperCase();" required pattern="^[A-Z]{3}\d{3}$">
+<input style="float:left; margin: 10px" href="" class="btn btn-danger" type="submit" value="BORRAR" style="margin-top:20px"></input></form>
+
+<div class="box" style="margin-top:5px; padding-bottom:0px">
+<table id="example" class="display" cellspacing="0" width="100%">
+
+
+        <thead>
+            <tr>
+                <th>Dominio</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Comb.</th>
+                <th>Año</th>
+                <th>Bateria</th>
+                <th>Test</th>
+                <th>Mecanico</th>
+                <th>Fecha</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each auto}}
+            <tr value={{this.Dominio}} onclick="dominSel({{@index}})">
+                <td id="{{@index}}">{{this.Dominio}}</td>
+                <td>{{this.Marca}}</td>
+                <td>{{this.Modelo}}</td>
+                <td>{{this.Combustible}}</td>
+                <td>{{this.Anio}}</td>
+                <td>{{this.Bateria}}</td>
+                <td><a href=public/archivo/{{this.Test}}.xls>{{this.Test}}.xls</a></td>
+                <td>{{this.Mecanico}}</td>
+                <td>{{this.Fecha}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+
+
+<script>
+function dominSel(num) {
+    document.getElementById("domin").value = document.getElementById(num).innerHTML;
+    document.getElementById("domindel").value = document.getElementById(num).innerHTML
+};
+
+</script>

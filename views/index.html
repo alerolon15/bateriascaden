@@ -1,0 +1,26 @@
+			<div class="col-md-6 col-md-offset-3">
+				<form method="POST" action="/consulta">
+					<label for="domin" class="labelDominio" style="margin:15px;">Dominio</label>
+					<input autocomplete="off" onkeyup="existe()" class="form-control" id="domin" type="text" name="Dominio" placeholder="Ingresar patente" style="text-transform:uppercase; margin:15px auto;" onkeydown="javascript:this.value=this.value.toUpperCase();" autofocus  required pattern="^[A-Z]{3}\d{3}$">
+					<br>
+					<input href="/consulta" id="consulta" class="btn btn-danger disabled" type="submit" value="Consultar Registro"></input>
+					<a href="/registro" class="btn btn-danger">Crear Nuevo Registro</a>
+				</form>
+			</div>
+
+<script>
+
+var autos = ["asd123","tat111"];
+{{#each autos}}
+       autos.push("{{{this.Dominio}}}")
+{{/each}}
+
+function existe(){
+	var search = document.getElementById('domin').value;
+	coincidencia = autos.indexOf(search.toUpperCase());
+	console.log(coincidencia)
+	if(coincidencia > -1){
+		$("#consulta").removeClass("disabled");
+	}else{$("#consulta").addClass("disabled");}
+};
+</script>

@@ -1,0 +1,393 @@
+[
+  {
+    "_id": "B-14 Civic Nuevo",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "",
+    "cca": "370",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "225",
+      "ancho": "129",
+      "largo": "238"
+    },
+    "precio": "$1.934"
+  },
+  {
+    "_id": "B-16",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "45",
+    "cca": "370",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "205"
+    },
+    "precio": "$1.409"
+  },
+  {
+    "_id": "B-19c",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "55",
+    "cca": "410",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "245"
+    },
+    "precio": "$1.345"
+  },
+  {
+    "_id": "B-19r",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "65",
+    "cca": "505",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "245"
+    },
+    "precio": "$1.568"
+  },
+  {
+    "_id": "B-19r Blue Libre",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "65",
+    "cca": "550",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "245"
+    },
+    "precio": "$1.917"
+  },
+  {
+    "_id": "B-19r Alta",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "70",
+    "cca": "580",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "175",
+      "largo": "245"
+    },
+    "precio": "$1.719"
+     },
+  {
+    "_id": "B-20",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "75",
+    "cca": "580",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "275"
+    },
+    "precio": "$1.719"
+     },
+  {
+    "_id": "B-21",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "75",
+    "cca": "630",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "175",
+      "ancho": "175",
+      "largo": "275"
+    },
+    "precio": "$2.003"
+     },
+  {
+    "_id": "B-21 Blue Libre",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "80",
+    "cca": "660",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "175",
+      "largo": "275"
+    },
+    "precio": "$2.092"
+     },
+  {
+    "_id": "B-22 Toyota",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "90",
+    "cca": "645",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "215",
+      "ancho": "175",
+      "largo": "280"
+    },
+    "precio": "$2.394"
+     },
+  {
+    "_id": "B-22 Toyota Larga",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "90",
+    "cca": "695",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "220",
+      "ancho": "175",
+      "largo": "30"
+    },
+    "precio": "$2.545"
+     },
+  {
+    "_id": "B-32 Bora",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "",
+    "cca": "775",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "192",
+      "ancho": "175",
+      "largo": "324"
+    },
+    "precio": "$2.589"
+     },
+  {
+    "_id": "B-34 Ranger",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "70",
+    "cca": "690",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "170",
+      "largo": "300"
+    },
+    "precio": "$2.816"
+     },
+  {
+    "_id": "B-23 R",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "110",
+    "cca": "830",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "220",
+      "ancho": "170",
+      "largo": "330"
+    },
+    "precio": "$2.867"
+     },
+  {
+    "_id": "B-23 R Blue",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "110",
+    "cca": "880",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "220",
+      "ancho": "170",
+      "largo": "330"
+    },
+    "precio": "$2.895"
+     },
+  {
+    "_id": "B-24 MF",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "",
+    "cca": "840",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "220",
+      "ancho": "178",
+      "largo": "360"
+    },
+    "precio": "$2.953"
+     },
+  {
+    "_id": "B-33 Sprinter",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "",
+    "cca": "",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "190",
+      "ancho": "175",
+      "largo": "376"
+    },
+    "precio": "$2.814"
+    },
+  {
+    "_id": "B-25 R Rastrojero",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "120",
+    "cca": "925",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "210",
+      "ancho": "178",
+      "largo": "425"
+    },
+    "precio": "$3.356"
+    },
+  {
+    "_id": "B-26ca",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "160",
+    "cca": "1275",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "230",
+      "ancho": "225",
+      "largo": "530"
+    },
+    "precio": "$4.096"
+    },
+  {
+    "_id": "B-27",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "180",
+    "cca": "1390",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "230",
+      "ancho": "225",
+      "largo": "530"
+    },
+    "precio": "$4.328"
+    },
+  {
+    "_id": "B-36",
+    "marca": "Caden",
+    "modelo": "12 Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "12",
+    "amperaje": "200",
+    "cca": "1465",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "245",
+      "ancho": "276",
+      "largo": "530"
+    },
+    "precio": "$5.003"
+    },
+    {
+    "_id": "B-30",
+    "marca": "Caden",
+    "modelo": "6Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "6",
+    "amperaje": "",
+    "cca": "1270",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "215",
+      "ancho": "175",
+      "largo": "280"
+    },
+    "precio": "$2.093"
+    },
+    {
+    "_id": "B-31",
+    "marca": "Caden",
+    "modelo": "6Vol Termosellada",
+    "imagen": "public/images/caden.png",
+    "voltaje": "6",
+    "amperaje": "",
+    "cca": "1380",
+    "rc": "",
+    "borne": "",
+    "medidas": {
+      "alto": "225",
+      "ancho": "178",
+      "largo": "360"
+    },
+    "precio": "$2.687"
+    },
+]

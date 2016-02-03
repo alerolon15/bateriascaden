@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+.btn-default {
+	background:darkgray;
+}
+html, body {
+	background-image: url(../images/Logo-CADEN-GRIS.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 80%;
+	background-position: 60% 100%;
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+.form-control{
+	width: 75%;
+    height: 54px;
+    margin: 0 auto;
+    padding: 6px 12px;
+    font-size: 21px;
+}
+.labelDominio{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.labelRegistro{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+#registro{
+	height: 36px;
+	display: inline-block;	
+}
+.selector{
+	height: 36px;
+}
+form{
+	width: 100%;
+	height: auto;
+	padding: 120px 20px;
+	margin-top: 20%;
+	background: rgba(0, 0, 0, 0.20);
+}
+.btn{
+	font-size: 21px;
+}
+footer{
+	position:fixed;
+	bottom: 0;
+	margin-left: 10px;
+}
+#edit {
+	margin-top: 0px;
+}
