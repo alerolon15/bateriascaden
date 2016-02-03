@@ -345,11 +345,6 @@ app.get('/agregarbaterias',function(req,res){
 
 app.post('/agregarbaterias',function(req,res){
 
-	Auto.count({},function(err,dominios){
-		if(err){console.log(err)}
-
-	Bateria.count({},function(err,baterias){
-		if(err){console.log(err)}
 
 	var data = {
 	_id: req.body.Codigo,
@@ -364,21 +359,16 @@ app.post('/agregarbaterias',function(req,res){
 	medidas: {alto: req.body.Alto, ancho: req.body.Ancho, largo: req.body.Largo},
 	precio: req.body.Precio
 	};
-    var options = {
-        layout:"dashboard.html",
-        dominios,
-        baterias
-    };
+
     var bateria = new Bateria(data);
 
 	bateria.save(function(err){
 		console.log(bateria);
 	});
     
-    res.render('admin.html',options);
+    res.redirect('/admin');
 });
-});
-});
+
 
 app.get('/admin',function(req,res){
     

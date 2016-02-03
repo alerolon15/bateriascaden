@@ -1,6 +1,6 @@
 [
   {
-    "_id": "B-14 Civic Nuevo",
+    "_id": "B-14-Civic-Nuevo",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -68,7 +68,7 @@
     "precio": "$1.568"
   },
   {
-    "_id": "B-19r Blue Libre",
+    "_id": "B-19r-Blue-Libre",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -85,7 +85,7 @@
     "precio": "$1.917"
   },
   {
-    "_id": "B-19r Alta",
+    "_id": "B-19r-Alta",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -136,7 +136,7 @@
     "precio": "$2.003"
      },
   {
-    "_id": "B-21 Blue Libre",
+    "_id": "B-21-Blue-Libre",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -153,7 +153,7 @@
     "precio": "$2.092"
      },
   {
-    "_id": "B-22 Toyota",
+    "_id": "B-22-Toyota",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -170,7 +170,7 @@
     "precio": "$2.394"
      },
   {
-    "_id": "B-22 Toyota Larga",
+    "_id": "B-22-Toyota-Larga",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -187,7 +187,7 @@
     "precio": "$2.545"
      },
   {
-    "_id": "B-32 Bora",
+    "_id": "B-32-Bora",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -204,7 +204,7 @@
     "precio": "$2.589"
      },
   {
-    "_id": "B-34 Ranger",
+    "_id": "B-34-Ranger",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -221,7 +221,7 @@
     "precio": "$2.816"
      },
   {
-    "_id": "B-23 R",
+    "_id": "B-23-R",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -238,7 +238,7 @@
     "precio": "$2.867"
      },
   {
-    "_id": "B-23 R Blue",
+    "_id": "B-23-R-Blue",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -255,7 +255,7 @@
     "precio": "$2.895"
      },
   {
-    "_id": "B-24 MF",
+    "_id": "B-24-MF",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -272,7 +272,7 @@
     "precio": "$2.953"
      },
   {
-    "_id": "B-33 Sprinter",
+    "_id": "B-33-Sprinter",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",
@@ -289,7 +289,7 @@
     "precio": "$2.814"
     },
   {
-    "_id": "B-25 R Rastrojero",
+    "_id": "B-25-R-Rastrojero",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/caden.png",

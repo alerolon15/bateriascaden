@@ -340,7 +340,7 @@
     "precio": "$3.450"
     },
     {
-    "_id": "MSA30HA ",
+    "_id": "MSA30HA",
     "marca": "Moura",
     "modelo": "LINEA PESADA",
     "imagen": "public/images/moura.png",
@@ -357,7 +357,7 @@
     "precio": "$4.615"
     },
     {
-    "_id": "MSA42BD ",
+    "_id": "MSA42BD",
     "marca": "Moura",
     "modelo": "LINEA PESADA",
     "imagen": "public/images/moura.png",
@@ -374,7 +374,7 @@
     "precio": "$6.183"
     },
     {
-    "_id": "MSA46BD ",
+    "_id": "MSA46BD",
     "marca": "Moura",
     "modelo": "LINEA PESADA",
     "imagen": "public/images/moura.png",

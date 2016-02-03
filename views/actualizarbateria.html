@@ -4,7 +4,8 @@
 				<form name="f1" method="POST" action="/actualizarbat">
 					<div class="row">	
 						<label for="Codigo" class="labelRegistro col-xs-3">Codigo</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Codigo" placeholder="Ingresar Codigo" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required disabled value={{bateria._id}}>
+						<input class="form-control col-xs-9 hide" id="registro" type="text" name="Codigo" placeholder="Ingresar Codigo" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required value={{bateria._id}}>
+						<input class="form-control col-xs-9" id="registro" type="text" name="" placeholder="Ingresar Codigo" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus disabled required value={{bateria._id}}>
 					</div>
 					<div class="row">
 						<label for="Marca" class="labelRegistro col-xs-3">Marca</label>
