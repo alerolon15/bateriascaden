@@ -130,14 +130,17 @@
 						<label onclick="filtro('#ACDelco')" class="btn sel" id="ACDelco" value="ACDelco">ACDelco</label>
 						<label onclick="filtro('#Caden')" class="btn sel" id="Caden" value="Caden">Caden</label>
 						<label onclick="filtro('#Moura')" class="btn sel" id="Moura" value="Moura">Moura</label>
+
 						
+						<input onkeyup="filtrar()" class="form-control col-xs-9" id="buscar" type="text" name="buscar" placeholder="buscar" autocomplete="off">
 						<hr>
+
 
 						<div class="ACDelco catalog">
 							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo ACDelco</h2>	
 							<hr>
 							{{#each acdelco}}
-								<div class="col-xs-12 col-sm-6 col-md-4" id="{{this._id}}">
+								<div class="col-xs-12 col-sm-6 col-md-4 box" id="{{this._id}}">
 									<div class="thumbnail">
 										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
 										<img src={{this.imagen}} class="img-responsive">
@@ -170,7 +173,7 @@
 							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo Caden</h2>	
 							<hr>
 							{{#each caden}}
-								<div class="col-xs-12 col-sm-6 col-md-4" id="{{this._id}}">
+								<div class="col-xs-12 col-sm-6 col-md-4 box" id="{{this._id}}">
 									<div class="thumbnail">
 										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
 										<img src={{this.imagen}} class="img-responsive">
@@ -201,11 +204,11 @@
 
 						<div style="clear: both"></div>
 						
-						<div class="Moura catalog ">
+						<div class="Moura catalog">
 							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo Moura</h2>	
 							<hr>
 							{{#each moura}}
-								<div class="col-xs-12 col-sm-6 col-md-4" id="{{this._id}}">
+								<div class="col-xs-12 col-sm-6 col-md-4 box" id="{{this._id}}">
 									<div class="thumbnail">
 										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
 										<img src={{this.imagen}} class="img-responsive">

@@ -72,6 +72,19 @@ function cambia_modelo(){
 	//marco como seleccionada la opción primera de modelos
 	document.f1.Modelo.options[0].selected = true
 }
+function filtrar(){
+
+	var search = document.getElementById("buscar"),
+    	bate = $( ".box" ),
+    	forEach = Array.prototype.forEach;
+    	var choice = document.getElementById("buscar").value;
+    	forEach.call(bate, function(f){
+        if (f.innerHTML.toLowerCase().search(choice.toLowerCase()) == -1)
+            f.style.display = "none";        
+        else
+            f.style.display = "block";        
+    });
+};
 
 function catalogo(){
 	if($( "#catalogo" ).hasClass( "hide" )){
@@ -89,5 +102,11 @@ function filtro(selector){
 	}else
 		$('.catalog').addClass('hide');
 		$("." + $( selector )[0].id).removeClass("hide");
-	}
+	};
 };
+
+
+var modeloscomp = new Array('1','164V63.0');
+console.log(modeloscomp.indexOf('164V63.0'));
+
+/* devuelve el valor de modelo sin espacios    document.getElementById('modelo').value.replace(/ /g,'');*/
