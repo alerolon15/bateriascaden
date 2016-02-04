@@ -18,7 +18,6 @@ var autos = ["asd123","tat111"];
 function existe(){
 	var search = document.getElementById('domin').value;
 	coincidencia = autos.indexOf(search.toUpperCase());
-	console.log(coincidencia)
 	if(coincidencia > -1){
 		$("#consulta").removeClass("disabled");
 	}else{$("#consulta").addClass("disabled");}

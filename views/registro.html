@@ -4,7 +4,7 @@
 				<form name="f1" method="POST" action="/registro">
 					<div class="row">	
 						<label for="Dominio" class="labelRegistro col-xs-3">Dominio</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required pattern="^[A-Z]{3}\d{3}$">
+						<input onkeyup="existe()" class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" style="text-transform:uppercase" onkeydown="javascript:this.value=this.value.toUpperCase();" autofocus required pattern="^[A-Z]{3}\d{3}$">
 					</div>
 					<div class="row">
 						<label for="Marca" class="labelRegistro col-xs-3">Marca</label>
@@ -233,3 +233,18 @@
 
 	<script src="public/js/select.js"></script>
 
+<script>
+
+var autos = ["asd123","tat111"];
+{{#each autos}}
+       autos.push("{{{this.Dominio}}}")
+{{/each}}
+
+function existe(){
+	var search = document.getElementById('registro').value;
+	coincidencia = autos.indexOf(search.toUpperCase());
+	if(coincidencia > -1){
+		alert("El Dominio que quiere ingresar ya esta registrado!! No puede registrar un dominio dos veces, si desea cambiar algo, vuelva hacia atras y actualice el registro anterior!")
+	}
+};
+</script>

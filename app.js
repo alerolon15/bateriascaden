@@ -306,6 +306,8 @@ app.post('/consulta', function(req,res){
 
 
 app.get('/registro',function(req,res){
+	Auto.find({},{_id:0,Dominio:1},function(err,autos){
+		if(err){console.log(err)}
     Bateria.find({marca: "Caden"},function(err,caden){
 		if(err){console.log(err)}
 	Bateria.find({marca: "Moura"},function(err,moura){
@@ -318,9 +320,11 @@ app.get('/registro',function(req,res){
         post: "/registro",
         caden: caden,
         moura: moura,
-        acdelco: acdelco
+        acdelco: acdelco,
+        autos
     };
     res.render('registro.html',options);
+});
 });
 });
 });
@@ -404,7 +408,8 @@ app.get('/graficos',function(req,res){
 });
 
 app.get('/agregarautos',function(req,res){
-
+	Auto.find({},{_id:0,Dominio:1},function(err,autos){
+		if(err){console.log(err)}
     Bateria.find({marca: "Caden"},function(err,caden){
 		if(err){console.log(err)}
 	Bateria.find({marca: "Moura"},function(err,moura){
@@ -417,7 +422,8 @@ app.get('/agregarautos',function(req,res){
         post: "/registro2",
         caden: caden,
         moura: moura,
-        acdelco: acdelco
+        acdelco: acdelco,
+        autos
     };
 
     res.render('registro.html',options);
@@ -425,6 +431,8 @@ app.get('/agregarautos',function(req,res){
 });
 });
 });
+});
+
 
 app.get('/tablaautos',function(req,res){
 
