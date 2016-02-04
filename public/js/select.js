@@ -75,7 +75,7 @@ function cambia_modelo(){
 function filtrar(){
 
 	var search = document.getElementById("buscar"),
-    	bate = $( ".box" ),
+    	bate = $( ".filt" ),
     	forEach = Array.prototype.forEach;
     	var choice = document.getElementById("buscar").value;
     	forEach.call(bate, function(f){

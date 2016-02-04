@@ -1,5 +1,5 @@
 <form id="edit" action="/actualizarautos" method="POST">
-<input class="form-control " id="domin" type="text" name="Dominio" placeholder="Hacer click en un dominio para seleccionar" style="text-transform:uppercase; margin:15px auto; float:left" onkeyup="javascript:this.value=this.value.toUpperCase();" required pattern="^[A-Z]{3}\d{3}$">
+<input class="form-control " id="domin" type="text" name="Dominio" placeholder="Hacer click en un dominio para seleccionar" style="text-transform:uppercase; margin:15px auto; float:left" onkeyup="pasarvalue(); javascript:this.value=this.value.toUpperCase();" required pattern="^[A-Z]{3}\d{3}$">
 <input style="float:left; margin: 10px" href="" class="btn btn-danger" type="submit" value="EDITAR" style="margin-top:20px"></input></form>
 
 <form id="edit" action="/borrarautos" method="POST">
@@ -45,7 +45,9 @@
 <script>
 function dominSel(num) {
     document.getElementById("domin").value = document.getElementById(num).innerHTML;
-    document.getElementById("domindel").value = document.getElementById(num).innerHTML
+    document.getElementById("domindel").value = document.getElementById("domin").value
 };
-
+function pasarvalue() {
+    document.getElementById("domindel").value = document.getElementById("domin").value
+};
 </script>

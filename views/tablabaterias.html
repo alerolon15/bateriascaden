@@ -1,5 +1,5 @@
 <form id="edit" action="/actualizarbaterias" method="POST">
-<input class="form-control " id="domin" type="text" name="_id" placeholder="Hacer click en un codigo para seleccionar" style="text-transform:uppercase; margin:15px auto; float:left" onkeyup="javascript:this.value=this.value.toUpperCase();" required >
+<input class="form-control " id="domin" type="text" name="_id" placeholder="Hacer click en un codigo para seleccionar" style="text-transform:uppercase; margin:15px auto; float:left" onkeyup="pasarvalue(); javascript:this.value=this.value.toUpperCase();" required >
 <input style="float:left; margin: 10px" href="" class="btn btn-danger" type="submit" value="EDITAR" style="margin-top:20px"></input></form>
 
 <form id="edit" action="/borrarbaterias" method="POST">
@@ -46,8 +46,11 @@
 <script>
 function dominSel(num) {
     document.getElementById("domin").value = document.getElementById(num).innerHTML;
-    document.getElementById("domindel").value = document.getElementById(num).innerHTML
+    document.getElementById("domindel").value = document.getElementById("domin").value
 
+};
+function pasarvalue() {
+    document.getElementById("domindel").value = document.getElementById("domin").value
 };
 </script>
 

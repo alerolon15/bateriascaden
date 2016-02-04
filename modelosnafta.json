@@ -1,0 +1,1110 @@
+[
+{
+	model = "145/146 1.8"	
+	Nafta = {"MI22GD","11B060D1","B19-R"}
+},
+
+145/146 2.0 	
+Nafta
+	MI26AD 		11B060 ALTA		"B19-R"	
+
+155/164 2.0 	
+Nafta
+	MI26AD		11B060 ALTA		"B19-R"	
+156 2.0 	
+Nafta
+	MI26AD		11B060 ALTA		"B19-R"		
+164 V6 3.0 	
+Nafta
+	MI28KD		11A070D1		B20	
+Giuletta	
+Nafta
+	MI22GD	D	11B060D1	D	"B19-R"	D
+Mito	
+Nafta
+	MI22GD	D	11B060D1	D	"B19-R"	D
+A1	
+Nafta
+	MSA30LD	D	11A070D1	D		
+A3 1.8T 	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+		
+A4 1.8T 	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+		
+A4 2.8 	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+A6 2.4/2.8 	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+A8 4.2	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Quatro 3.4	
+Nafta
+	MI28TD	D				
+TT	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+	
+740	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+540	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+316/320/328 	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+
+M3	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+M5	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+X5	
+Nafta
+	MI30QD					
+X6	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Z4	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Z3 1.9/ 2.8	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+QQ	
+Nafta
+	S445DA					
+Face	
+Nafta
+	MI20GD	D				
+Tigo	
+Nafta
+	MSA22RD	D				
+Agile - 1.4 LS 5Ptas.	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Astra 	
+Nafta
+	MI28KD	D	11B070D1	D	B21-R	
+Aveo	
+Nafta
+	MI22GE	I	11BO60E1	I		
+		
+Blazer 	
+Nafta
+	MI26GE	I				
+		
+Traker	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Captiva	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+
+Celta	
+Nafta
+	MI22GD	D	11B060D1		B19-R	
+
+Corsa 	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Cobalt	
+Nafta
+	MI22GD	D	11B060D1	D	B-19 Plus	D
+Cruze	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+	
+		
+Kadett	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Meriva 1.8/1.8 16v	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Montana	
+Nafta
+	MI22GD		11B060D1	D	B19-R	D
+Monza	
+Nafta
+	MI22KD	D	11B060D1	D	B19-R	D
+Prisma	
+Nafta
+	MI18FD	D	11B045D1	D		
+Spin	
+nafta
+	MI18FD	D	11B045D1	D		
+S10 	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+		
+Silverado 	
+Nafta
+	MI28KD 	D	11A070D1	D	B21 	D
+Tigra	
+Nafta
+	MI22GD		11B060D1	D	B19-R	D
+Spark	
+Nafta
+	MSA18SD	D	-	D	-	D
+
+Vectra 	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Vitara	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Onix	
+Nafta
+	MI22ED	D	11B045D1	D	B-16  	D
+Zafira 2.0/2.0 16v	
+Nafta
+	MI22GD 	D	11B060D1	D	B19-R	D
+
+
+AX 	
+Nafta
+	MI18FD	D	11A045D1	D	B-16 plus	
+
+Berlingo 	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+BX 	
+Nafta
+	MI24KD	D	11A070D1	D	B20	D
+C3	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+C4	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+C4 Lunge	
+Nafta
+	MI24KD	D	11B070D1	D	B-21 Plus	
+
+C4 Picasso	
+Nafta
+	MI22ED	I	11B060E1	I		
+C5	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+
+
+	
+Saxo	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+XSara Picasso	
+Nafta
+	MI22ED	I	11B060E1	I	B19-Rplus	D
+
+
+ZX 1.8	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+ZX 2.0	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+300	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+		
+Caravan 	
+Nafta
+	MI28KD 	D	11B070D1	D	B-21	D
+		
+Cherokee 	
+Nafta
+	MI28KD 	D	11B070D1	D	B-21	D
+		I		
+Dakota 3.9	
+Nafta
+	 MI28KD	D	11A070D1	D		
+			
+Grand Cherokee 	
+Nafta
+	MSA30LE	I				
+Journey	
+Nafta
+	MSA30LD	D	11B070D1	D		
+Pt Cruiser	
+Nafta
+	MI28TD	D			B22 TL	D
+Neon Nuevo	
+Nafta
+	MI22ED	D	11B060D1	D		
+Neon	
+Nafta
+	MI22GE	I	11B055E1	I	B19-R	I
+
+TLX 1410	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Cielo	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+Damas/Labo	
+Nafta
+	MSA22JD	D				
+Espero	
+Nafta
+	 MI22GD 	D	11B060D1	D	B19-R	D
+Lanos	
+Nafta
+	 MI22GE	I	11B060E1	I		
+Lenganza	
+Nafta
+	 MI22GE	I	11B060E1	I		
+Matiz	
+Nafta
+	MSA18SD	D				
+Nugira	
+Nafta
+	 MI22GE	I	11B060E1	I		
+Tacuma	
+Nafta
+	MI20GD		11B060D1	D	B19-R	D
+Tico	
+Nafta
+	MSA22JD		11A047	D	B19-R	D
+Racer	
+Nafta
+	 MI22GD 	D	11B060D1	D	B19-R	D
+Applause	
+Nafta
+	 MI22GD 	D	11B060D1	D	B19-R	D
+Coupe 2.0	
+Nafta
+	MI18FD	D	11B045D1	D	B16	D
+Cuore	
+Nafta
+	MSA22JD	D				
+Charmant	
+Nafta
+	 MI22GD 	D	11B060D1	D	B19-R	D
+Charade	
+Nafta
+	MSA22JD	D				
+Dakota 2.5	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+Delta	
+Nafta
+	MSA22JD	D				
+Feroza	
+Nafta
+	MSA22JD	D				
+Move	
+Nafta
+	MSA22JD	D				
+Rocky	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Sirion	
+Nafta
+	MSA22JD	D				
+Terios	
+Nafta
+	MSA22JD	D				
+Tico	
+Nafta
+	MSA22JD	D	11A047	D		
+
+128 1.3/1.5	
+Nafta
+	MI20GD	D	11B060D1	D	B19-R	D
+500	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Barchetta	
+Nafta
+	MI2OGD	D	11B060D1	D	B19-R	D
+Bravo	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Brío	
+Nafta
+	MI2OGD	D	11B060D1	D	B19-R	D
+CUBO	
+NAFTA
+	MI22 GD	D	11B060D1		B19-R PLUS	
+
+Duna 1.3/1.4/1.5/1.6	
+Nafta
+	MI2OGD	D	11B060D1	D	B19-R	D
+
+Idea	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+Linea	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Marea	
+Diesel
+	MI28KD	D	11B070D1	D	B21 	D
+Marea	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Nuevo UNO	
+Nafta
+	MI18FD	D	11B045D1	D	B16 	D
+Palio 1.6 16v	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+
+Punto	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+
+Regatta	
+Nafta
+	MI20GD	D	11B060D1	D	B19-R	D
+Siena 1.6	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+Siena 16V	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+
+Spazio	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Tempra	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Tipo	
+Nafta
+	MI22GD 	D	11B060D1	D	B19-R	D
+Uno 1.3/1.4/1.5/1.6	
+Nafta
+	MI2OGD	D	11B060D1	D	B19-R	D
+
+Courier	
+Nafta
+	MI24KD	D	11B070D1	D	B-21	D
+
+EcoSport	
+Nafta
+	MI18FD	D	11B045D1	D		
+EcoSport Titanium	
+Nafta
+	MI20GD	D	11B060D1	D	B-19 Plus	
+
+Escort >92	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Escort 96>	
+Nafta
+	MI24KD	D	11B070D1	D	B20	D
+Explorer	
+Nafta
+	MSA30LE	D	11BO7OE1	I		
+F100	
+Nafta
+	MI24KD	D	11B070D1	D	B21 PLUS	D
+F100 3.9/4.2/4.9	
+Nafta
+	MSA30LE	D	11BO7OE1	I		
+		
+
+
+Falcon	
+Nafta
+	MI28KD	D	11B070D1	D	B20	D
+
+Fiesta / Courrier	
+Nafta
+	MI18FD	D	11B045D1	D		
+Fiesta  Kinetic	
+Nafta
+	MI22GD		11B060D1	D	B19-Rplus	
+
+Focus	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Galaxy	
+Nafta
+	MI24KD	D	11B070D1	D	B20	D
+Ka	
+Nafta
+	MI18FD	D	11B045D1	D	B16	D
+Kuga	
+Nafta
+	MI24KD	D	11A070D1	D		
+
+Mondeo	
+Nafta
+	MI24KD	D	11A070D1	D	B21	D
+Mondeo 2.2	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19 RP	D
+Orion	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+	
+Ranger	
+Nafta
+	MI28KD(op)	D	11B070D1	D	B21	D
+Ranger 2015	
+Diesel
+	MSA30LD	D	11B070	D	B-22TCD	
+Sierra	
+Nafta
+	MI20GD	D	11B060D1	D	B19-R	D
+Taunus	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Accord	
+Nafta
+	MSA22RD	D				
+City	
+Nafta
+	MSA18SD	D		D		
+Civic	
+Nafta
+	MSA22JE	D	11A047	D		
+New Civic	
+Nafta
+	MSA22JD	D	11A047	D		
+CRV	
+Nafta
+	MSA22JD	D	11A047	D		
+Fit	
+Nafta
+	MSA18SD	D				
+Passport	
+Nafta
+	MSA30LD	D	11B070D1	D		
+Pilot	
+Nafta
+	MSA30LD	D	11B070D1	D		
+Prelude	
+Nafta
+	MSA22RD	D				
+Accent	
+Nafta
+	MI20GD	D	11B060D1	D	B19-R	D
+Atos	
+Nafta
+	MSA18SD	D	11B045D1			
+Elantra 2.0	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19 RP	D
+
+Excel	
+Nafta
+	MI20GD	D	11B060D1	D	B19-R	D
+
+I 10    Motor 1.2	
+Nafta
+	MSA18SD				S4 36 DA	
+Scoupe	
+Nafta
+	MSA22LD	D	11B060D1	D	B19-R	D
+
+		
+Santa Fe	
+Nafta
+	MSA30LD					
+
+Scoupe	
+Nafta
+	MSA22JD	D				
+TUCSON       2.0	
+Nafta
+		D			B22  TC	
+Sonata	
+Nafta
+	MSA22JD	D				
+Amigo	
+Nafta
+	MSA22JD	D				
+
+Rodeo	
+Nafta
+	MSA22RE	D			B22 TCI	D
+
+Trooper	
+Nafta
+	MI22GD	D	11B060 	D	B19 RP	D
+
+
+Cherokee 		
+	MI26AD	D	11B060 ALTA	D		
+Cherokee  Clasic 		
+	MSA30LE	I	11B070E1	I	OPTIMA RED	
+Wrangler		
+	MI26AD	D	11B060 ALTA	D		
+Jaguar							
+XF		MI28KD	D	11B070D1	D		
+Compass	
+Nafta
+	MI26AE	I				
+XKR		
+	MI28KD	D	11B070D1	D		
+
+Picanto	
+Nafta
+	MSA18SD					
+Pride	
+Nafta
+	MSA22JD	D				
+Sephia/Sportage	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+SEPHIA 	
+Nafta
+	MI26AD		11B060D1 ALTA			
+Sorento	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+
+Discovery V6i	
+Nafta
+	MI28KD	D	11B070D1	D		
+Freelander	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Freelander	
+Nafta
+	MSA30LD	D	11B070D1	D		
+	
+Rover 4.0/4.6	
+Nafta
+	MSA30LD	D	11B070D1	D		
+323	
+Nafta
+	MI22GD	D	11B060D1	D		
+121	
+Nafta
+	MI22GD	D	11B060D1	D		
+626	
+Nafta
+	MI22GD	D	11B060D1	D		
+929	
+Nafta
+	MI28KD	D	11B070D1	D		
+	
+B Serie	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+MX3	
+Nafta
+	MI22GD	D	11B060D1	D		
+MX6	
+Nafta
+	MI22GD	D	11B060D1	D		
+RX7	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+MX-5 Miata	
+Nafta
+	MSA22JD	D				
+
+
+Clase A 160/190	
+Nafta
+	MI22GD	D	11B060D1	D		
+Clase B 170/200	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Clase C 200/280	
+Nafta
+	MSA30LD	D	11B070	D		
+	
+Clase E 	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+	
+Clase E 320/430	
+Nafta
+	MSA30LD	D	11B070D1	D		
+Clase M 230/320	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+	
+Clase S 320/500/600	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Clase SLK	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Clase CLC	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+CLK 230K/320/430	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+GLK	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+Kompresor	
+Nafta
+	MSA30LD	D	11B070D1	D		
+
+
+SL 280/320/500/600	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+SLK 230/230K	
+Nafta
+	MI26AD	D	11B060 ALTA	D		
+
+Cooper	
+Nafta
+	MI22GD	D	11B060D1	D		
+Colt	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Eclipse	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+I200	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+I300	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Galant	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+L400 Van	
+Diesel
+	MSA30LE	I				
+Lancer	
+Nafta
+	MSA22JD	D				
+
+Montero 3.5 V6	
+Nafta
+	MSA30LD	D	11B070D1	D		
+Nativa	
+Nafta
+	MSA22RE	I			B22 TCI	I
+
+100NX	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+200SX	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+Maxima		MI28TE	D			B22 TLI	I
+Pathfinder	
+Nafta
+	MSA22RD	D			B22 TC	D
+
+Sentra	
+Nafta
+	MSA22JD	D		D		
+Terrano/SerenaSLX/Patrol		
+	MI28TE	D			B22 TLI	I
+Tiida	
+Nafta
+	MI26AD	D	11B060 ALTA	D	  	D
+
+106	
+Nafta
+	MI22ED	 	11B060D1		B19-R	D
+
+205	
+Nafta
+	MI22GD	D	11B060D1		B19-R	D
+
+206	
+Nafta
+	MI22ED	D	11B060D1	D	B19-RP	D
+
+207	
+Nafta
+	MI22ED	D	11B060D1	D	B19-RP	
+
+306	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+
+308	
+Nafta
+	MI24KD	D	11B070	D	B21PLUS	D
+405	
+Nafta
+	MI22GD	D	11B060D1	D	B19-RP	
+
+406	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+407	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+408	
+Nafta
+	MI24KD	D	11B070D1	D	B21	D
+
+504	
+Nafta
+	MI24KD	D	11A070D1	D	B20	D
+
+505	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+605	
+Nafta
+	MI28KD	D	11B070D1	D		
+806	
+Nafta
+	MI28KD	D	11B070D0	D		
+807	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+Partner	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+	
+RCZ	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+SS	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Clio	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Clio 2	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+
+Fluence	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Fuego	
+Nafta
+	MI24KD	D	11B060D1	D	B20	D
+
+Kangoo	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Koleos	
+Nafta
+	MSA30LD					D
+
+Laguna RT/RXE	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Laguna RXT	
+Nafta
+	MI24KD	D	11B070D1	D	B20	D
+Logan	
+Nafta
+	MI22GD	D	11B055D1	D		
+
+
+Megane	
+Nafta
+	MI22GD	D	11B060D0	D	B19-R	D
+Megane II	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+
+Megane III	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+			
+
+R19	
+Nafta
+	MI24KD	D	11A070D1	D	B20	D
+R9/11/12/18/21 (base)	
+Nafta
+	MI20GD	D	11B060D1	D	B19-R	D
+R9/11/12/18/21 (full)	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Sandero	
+Nafta
+	MI22GD	D	11B060	D	B19-RP	D
+
+Scenic	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Scenic II	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+
+Symbol	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+Trafic	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Twingo	
+Nafta
+	MI18FD	D	11B045D1	D	B16	
+
+214/216/220/414/416/420	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+
+
+620	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+820	
+Nafta
+	MI28KD	D	11B070D1	D	B20	D
+340FSX	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+9.3 2.0/2.3	
+Nafta
+	MI24KD	D	11B070D1	D	B20	D
+900	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+9000	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Concept	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Phoenix	
+Nafta
+	MI28KD	D	11B070D1	D	B20	D
+
+
+Cordoba 1.6	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Ibiza 1.6/1.8/2.0	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+Leon	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Toledo 1.6/1.8/2.0	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+
+
+Musso	
+Nafta
+	MI28TD	D			B22 TL	D
+
+Impreza 2.0/2.0 Turbo	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Club	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Forester	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+Justy	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Tribeca	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+Legacy	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+Outback	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Baleno	
+Nafta
+	MSA22JE	D				
+Fun 1.0 / 1.4 s/ AC	
+Nafta
+	MI20GD	D	11B060D1	D	B19-R	D
+Fun 1.0 / 1.4 c/ AC	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+
+Grand Vitara 2.0	
+Nafta
+	MSA22RE	I			B22 TC	I
+Swift	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Sidekicks	
+Nafta
+	MSA22JE					
+Jimmy	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Swift	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Vitara 1.6	
+Nafta
+	MSA22JD	D	11B055D1	D	B19-R	D
+Camry 2.2	
+Nafta
+	MI26AE	I				
+Bandeirantes		MI28TD	D				
+Celica	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+Corolla 1.6	
+Nafta
+	MI22ED	D	11B060D1	D	B19-R	D
+
+Corona 2.0	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+Hilux SW4 V6	
+Nafta
+	MSA22RE	I			B22 TCI	I
+
+Previa	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Prius	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+RAV4	
+Nafta
+	MSA22RE	I			B22 TCI	I
+Tractores 685/785/885/985		
+	MSA30HA		11B100E1	I	B23-R	I
+740	
+Nafta
+	MI28KD	D	11A070D1	D	B20	D
+9000	
+Nafta
+	MI22GD	D	11B060D1	D		
+740/760	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+
+940/960	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+C70	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+Cheyenne	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+
+
+
+S40/V40	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+S70 10V / T5	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+
+
+Bora 2.0/ 1.8T	
+Nafta
+	MI28TD	D			B 22 TL	D
+Bora 2.0 2008	
+Nafta
+	MI26AD	D	11B060 Alta	D	B-19RR	
+
+CrossFox	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Fox	
+Nafta
+	MI26AD	D	11B060D1	D	B19-R	D
+
+Gol/Polo (Base)	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Gol/Polo (Full)	
+Nafta
+	MI28KD	D	11B070D1	D	B20	D
+Gol Trend /Voyage	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Golf	
+Nafta
+						D
+
+
+New Beetle	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Kombi		MI28TD	D			B22TL	D
+Passat 1.8T/VR6 	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Passat 2.0 (95>97)	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+	
+Passat VR6 	
+Nafta
+	MI24KD	D	11B070D1	D	B20	D
+Pointer	
+Nafta
+	MI22GD	D	11B060D1	D	B19-RP	D
+
+
+Quantum	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+
+Santana	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	
+
+Senda / Gacel	
+Nafta
+	MI22GD	D	11B060D1	D	B19-R	D
+Sharan	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	
+
+Suran	
+Nafta
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+
+Tiguan	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+Touareg	
+Nafta
+	MI30QD					
+Vento Variant	
+Nafta
+	MSA30LD	D	11B070D1	D		
+Vento	
+Nafta
+	MI28KD	D	11B070D1	D	B21	D
+]

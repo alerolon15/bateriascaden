@@ -132,7 +132,7 @@
 						<label onclick="filtro('#Moura')" class="btn sel" id="Moura" value="Moura">Moura</label>
 
 						
-						<input onkeyup="filtrar()" class="form-control col-xs-9" id="buscar" type="text" name="buscar" placeholder="buscar" autocomplete="off">
+						<input style="width: 100%;" onkeyup="filtrar()" class="form-control col-xs-9" id="buscar" type="text" name="buscar" placeholder="Buscar Bateria por Codigo" autocomplete="off"><div style="clear: both"></div>
 						<hr>
 
 
@@ -140,7 +140,7 @@
 							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo ACDelco</h2>	
 							<hr>
 							{{#each acdelco}}
-								<div class="col-xs-12 col-sm-6 col-md-4 box" id="{{this._id}}">
+								<div class="col-xs-12 col-sm-6 col-md-4 filt" id="{{this._id}}">
 									<div class="thumbnail">
 										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
 										<img src={{this.imagen}} class="img-responsive">
@@ -173,7 +173,7 @@
 							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo Caden</h2>	
 							<hr>
 							{{#each caden}}
-								<div class="col-xs-12 col-sm-6 col-md-4 box" id="{{this._id}}">
+								<div class="col-xs-12 col-sm-6 col-md-4 filt" id="{{this._id}}">
 									<div class="thumbnail">
 										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
 										<img src={{this.imagen}} class="img-responsive">
@@ -208,7 +208,7 @@
 							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo Moura</h2>	
 							<hr>
 							{{#each moura}}
-								<div class="col-xs-12 col-sm-6 col-md-4 box" id="{{this._id}}">
+								<div class="col-xs-12 col-sm-6 col-md-4 filt" id="{{this._id}}">
 									<div class="thumbnail">
 										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
 										<img src={{this.imagen}} class="img-responsive">

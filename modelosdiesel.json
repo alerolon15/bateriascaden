@@ -1,0 +1,850 @@
+"
+[
+	{
+		Model : "6000 RD C/Doble", 	
+		Diesel : ["MSA30HA","11B100D1","B23-R"]
+	},
+
+6000 RD Furgovan 	
+Diesel
+	MSA30HA	D	11B100D1	D	B23-R	D
+7500 RD E Mec.	
+Diesel
+	MSA30HA	D	11B100D1	D	B23-R	D
+7500 CD E Mec. C/Doble 	
+Diesel
+	MSA30HA	D	11B100D1	D	B23-R	D
+1600 Omnibus/ Furgon	
+Diesel
+	MI30QD					
+8500 TCE E-Tronic  	
+Diesel
+	MSA30HA	D	11B100D1	D	B23-R	D
+9200 TCA C/Simple	
+Diesel
+	MSA30HA	D	11B100D1	D	B23-R	D
+TX 1600	
+Diesel
+	MSA30HA	D	11B100D1	D	B23-R	D
+145/146 2.0 Turbo 	
+Diesel
+	MI28KD 	D	11B070D1	D	B21 	D
+156 2.4 Turbo 	
+Diesel
+	MSA30LD	D	11A070D1	D	B-21
+A3 1.9 TDI 	
+Diesel
+	MSA30LD	D	11B070D1	D
+A4 1.9 TDI 	
+Diesel
+	MSA30LD	D	11B070D1	D
+Quatro	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Hi Topic	
+Diesel
+	MI28TD	D			B-22 T.L	
+318	
+Diesel
+	MSA30LD	D	11B070D1	D
+320/325 	
+Diesel
+	MSA30LD	D	11B070D1	D	B-21	
+520/525/523/528 	
+Diesel
+	MSA30LD	D	11B070D1	D	B-21	
+Astra 2,0	
+Diesel
+	MI28KD	D	11B070D1	D	B20	D
+Blazer 2.5 Maxion	
+Diesel
+	MI28KE 	I	11B070E1	I
+Blazer 2.8 MWM	
+Diesel
+	MI28KE 	I	11B070E1	I
+Captiva	
+Diesel
+	MSA30LD	I		I	B-22TCI	I
+Corsa 	
+Diesel
+	MI28KD	D	11A070D1	D	B21	D
+D20 	
+Diesel
+	MI28KD	D	11B070D1	D	
+Grand Blazer 	
+Diesel
+	MI28KE 	I	11B070E1	I
+LUV 	
+Diesel
+	MSA22RE	I			B22 TC	I
+Meriva 1,7 TDi	
+Diesel
+	MI28KD	D	11B070D1	D	B21 	D
+S10  2.8 MWM	
+Diesel
+	MI26AD	I	11B060ALTA	I		
+Silverado 	
+Diesel
+	MSA30LD	D	11B070D1	D
+Vectra 	
+Diesel
+	MI28KD	D	11B070D1	D	B21	
+Zafira	
+Diesel
+	MI28KD	D	11B070D1	D	B21 	D
+AX 	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+Berlingo 	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+BX 	
+Diesel
+	MI28KD	D	11B070D1	D	B-21	D
+C3	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+C4	
+Diesel
+	MI28KD	D	11B070D1	D	B21 	D
+C5	
+Diesel
+	MI28KD	D	11B070D1	D	B21 	D
+C15 	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+Jumper	
+Diesel
+	MSA30LD	D	11B070D1	D	
+Xantia	
+Diesel
+	MI24KD	D	11B070D1	D	B20	D
+Xantia	
+XSara Picasso	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+Xsara 1.9TD	
+Diesel
+	MI28KD	D	11B070D1	D	B-21	D
+ZX 1.9 TD	
+Diesel
+	MI28KD 	D	11B070D1	D	B-21	D
+Caravan 	
+Diesel
+	 MI28KE	I	11B070E1	I
+Cherokee 	
+Diesel
+	 MI28KE	I	11B070E1	I
+Dakota 2.5	
+Diesel
+	MI28TE	I
+Grand Cherokee 	
+Diesel
+	MI30QD	I	
+Pick Up	
+Diesel
+	 MI28KD	D	11B070D1	D	B21 	
+D1416	
+Diesel
+	MSA30HA	I	11B100E1	I	B23 - R	I
+D1725	
+Diesel
+	MSA30HA	I	11B100E1	I	B23 - R	I
+D1721	
+Diesel
+	MSA30HA	I	11B100E1	I	B23 - R	I
+V 116 s/Caja	
+Diesel
+	MSA30HA	I	11B100E1	I	B23 - R	I
+V 118 c/Caja volcador	
+Diesel
+	MSA30HA	I	11B100E1	I	B23 - R	I
+V 118 s/Caja 	
+Diesel
+	MSA30HA	I	11B100E1	I	B23 - R	I
+Furgón D -Route Techo Alto 	
+Diesel
+	MI28KD	D	11A070D1	D	B21 	D
+Furgón D -Route Techo Bajo	
+Diesel
+	MI28KD	D	11A070D1	D	B21 	D
+Minibus - 24 Px Base	
+Diesel
+	MSA30HA	I	11B100E1	I	B23 - R	I
+Minibus - 24 Px Full	
+Diesel
+	MI28TD	D			B22 TL	D
+Duna 1.3/1.7	
+Diesel
+	MI28KD	D	11B070D1	D	B20	D
+Eurocargo 120/150/160	
+Diesel
+	MSA30HA	I	11B100E1	I	B23-R	I
+Eurotrakker	
+Diesel
+	MSA46BE	I	11B170E1	I	B27	I
+Fiorino 1.3	
+Diesel
+	MI28KD	D	11B070D1	D	B-21	D
+Fiorino 1.7	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Palio TD	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-R	D
+Punto	
+Diesel
+	MI26AD	D	11B060 ALTA 	D	B-19RR	D
+Siena TD	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+Spazio	
+Diesel
+	MI24KD	D	11B070D1	D	B20	D
+Strada	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+Uno 1.7	
+Diesel
+	MI28KD	D	11B070D1	D	B21 	D
+Courier	
+Diesel
+	MI28KD	D	11B070D1	D	B-21	D
+Cargo -712/28 -914 -915 	
+Diesel
+	MSA30HA	D	11B100D1	D	B23-R	D
+Cargo 85 al 90	
+Diesel
+	MSA42BD	D	11B150D1	D	B27	D
+Cargo 814/ 815 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Cargo -1716 -1721/43 -1722/35 -1730/48 	
+Diesel
+	MSA42BD	D	11B150D1	D	B27	D
+Cargo -1831/37SA -1832/37e 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Cargo -2625/41 -2631/41 -2632/41e	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+EcoSport	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-Rplus	D
+Escort 	
+Diesel
+	MI28KD	D	11B070D1	D	B21 	D
+F100 Maxion	
+Diesel
+	MSA30LD	D	11B070D1	D
+F100 MWM	
+Diesel
+	MSA30LD	D	11B070D1	D		
+F100 Perkins	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+F-14000 -H.D-44 -H.D-49 -H.D-53	
+Diesel
+	MSA46BD	D	11A170D1	D	B27	D
+F-4000 -523 R -524 R 	
+Diesel
+	MSA22LD	D			B22-TC	D
+F4000/ F250/ F350 98 al 02	
+Diesel
+	MSA22RD	D			B22-TC	D
+F4000/ F250/ F350  ap05 	
+Diesel
+	MSA22RD	D			B22-TC	D
+Falcon	
+Diesel
+	MSA22RD	D			B22-TC	D
+Fiesta / Courrier	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Focus	
+Diesel
+	MI28KD	D	11A070D1	D	B21	D
+Kuga	
+Diesel
+	MI28KD	D	11B070D1			
+Mondeo	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Ranger	
+Diesel
+	MSA30LD	D	11B070D1	D	
+Transit 2013 	
+Diesel
+	MI28KD	D	11B070D1	D	B-21 Plus	D
+Transit	
+Diesel
+	MI28TD	D	11B070D1	D	B22 TL	D
+Elantra 2.0	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19 RP	D
+Galloper TD 2.5XL	
+Diesel
+	MI28TD	D	11B070D1		B22 TL	D
+H 1 Minibus 12 Pas (85hp) 	
+Diesel
+	LDB100					
+H 1 Minibus 12 Pas 2.5 (100hp) 	
+Diesel
+	LDB100					
+H 100 Minibus  	
+Diesel
+	M28TD	D			B-22TLD	
+H 100 Van 	
+Diesel
+	M28TD	D			B-22TLD	
+H 100 Ambulancia 	
+Diesel
+	M28TD	D			B-22TLD	
+H 100 Truck GLS 1Ton c/caja	
+Diesel
+	MI30QD					
+H 250 Corto 	
+Diesel
+	MI28TD					
+H 250 Largo 	
+Diesel
+	MI28TD					
+H 350 - s/caja 	
+Diesel
+	MI28TD					
+HD65 - Corto 	
+Diesel
+	MI28TD					
+HD65 -Largo c/caja AA 	
+Diesel
+	MI28TD					
+HD72 - DLX 3.2 TCI EURO II 	
+Diesel
+	MI28TD					
+HD78 - D4DD 3.9 CRDi Chasis	
+Diesel
+	MI28TD			
+Veracruz	
+Diesel
+	MSA30HA	I	11B100E2	I	B-23R	
+Pickup 2.5TD	
+Diesel
+	MSA22RD	D			B22 TC	D
+Pickup 2.5TD /3.1TD	
+Diesel
+	MI28TE	I			B22 TL	I
+Trooper	
+Diesel
+	MI28TE	D			B22 TLI	D
+Daily 35-10/49-10/59-12	
+Diesel
+	MSA30HA	I	11B100E1	I	B23-R	I
+Daily 49.10/40.80/45.10	
+Diesel
+	MSA30HA	I	11B100E1	I	B23-R	I
+Eurocargo 	
+Diesel
+	MSA30HA	I	11B100E1	I	B23-R	I
+Eurotech	
+Diesel
+	MSA42BD	D	11B150D1	D	B27	D
+Eurotracker	
+Diesel
+	MSA42BD	D	11B150D1	D	B27	D
+Stralis -200/380	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Stralis -450/490	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Stralis -570	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Stralis -740	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Tector -170/	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Tector -240/260 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+New Tector -170E25	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Besta	
+Diesel
+	MI28TD	D			B22 TL	D
+Carens	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Carnival	
+Diesel
+	MSA30LD	D	11B070D1	D		
+K-2500/2700	
+Diesel
+	MSA30HA	I	11B100E1	I	B23-R	I
+Sportage	
+Diesel
+	MI28TD	D			B22 TL	D
+Defender 90/110	
+Diesel
+	MSA30HA	I	11B100E1	I	B23-R	I
+Discovery	
+Diesel
+	MSA30HA	I	11B100E1	I	B23-R	I
+Rover 2.5	
+Diesel
+	MI28KD	D	11B070D1	D	
+B 2500	
+Diesel
+	MI28KD	D	11B070D1	D	
+1114	
+Diesel
+	MSA46BD		11B170D1		B27	
+1215	
+Diesel
+	MSA46BD		11B170D1		B27	
+1420	
+Diesel
+	MSA46BD		11B170D1		B27	
+1615/1620/1622/1633	
+Diesel
+	MSA46BD		11B170D1		B27	
+1715/1722	
+Diesel
+	MSA46BD		11B170D1		B27	
+1817/1818/1521	
+Diesel
+	MSA46BD		11B170D1		B27	
+1938/1941/1945	
+Diesel
+	MSA30HA	I	11B100D1	I	B23-R	I
+Camiones 619/687/190AN/190 T	
+Diesel
+	MSA46BD		11B170D1		B27	
+Camiones 710	
+Diesel
+	MSA42BD		11B150D1			
+Camiones 915	
+Diesel
+	MSA42BD		11B150D1			
+Clase C 220	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Clase C 240	
+Diesel
+	MSA30LD	D	11B070D1	D	
+Clase E 300	
+Diesel
+	MSA30LD	D	11B070D1	D	
+Clase S 300	
+Diesel
+	MSA30LD	D	11B070D1	D	
+MB180	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Micro BR 116	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	
+Micro K112/113	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	
+Micro OHL/1315/1420	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	
+Omnibus	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	
+Omnibus 362/362A/37Q/1113/1313/1316	
+Diesel
+	MSA52BD	D	11B200D1	D	B31	
+R112/113	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Sprinter	
+Diesel
+	MI30QD	D				
+T112/113	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Vito / Viano	
+Diesel
+	MSA30LD	D	11B070D1	D		
+L200/L300	
+Diesel
+	MI28TD	D			B22 TL	D
+Montero 2.8	
+Diesel
+	MI28TD	D			B22 TL	D
+Outlander	
+Diesel
+	MI30QD	D				
+Pajero	
+Diesel
+	MSA30LE	I				
+Space Wagon	
+Diesel
+	MSA22JD	D				
+4630/5030/5630/6630/7630/7830/8030		
+	MSA30HA	I	11B100D1	I	B23-R	I
+Tractores 8630DT/8830DT	
+Diesel
+	MSA42BD	D	11B150D1	D	B26	D
+Frontier	
+Diesel
+	MI28TD	D			B22 TLD	D
+Pathfinder	
+Diesel
+	MI28TE	D			B22 TLI	I
+Primera	
+Diesel
+	MSA22RD	D			B22 TC	D
+Pickup	
+Diesel
+	MI28TE	D			B22 TLI	I
+205	
+Diesel
+	MI22GD	D	11B060D1	D	B19-RP	D
+206	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+207	
+Diesel
+	MI26AD	D	11B060 Alta	D		
+306	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+307	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+405	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+406	
+Diesel
+	MI28KD	D	11B070D1	D	B21	
+504	
+Diesel
+	MSA30HA	D	11A100D1	D	B23-R	D
+505	
+Diesel
+	MI24KD	D	11B070D1	D	B20	D
+207 HDI	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+307 HDI	
+Diesel
+	MI28KD	D	11B070D0	D		
+407 HDI	
+Diesel
+	MI28KD	D	11B070D0	D		
+Boxer	
+Diesel
+	MI30QD	D				
+Boxer 1.9	
+Diesel
+	MI28KD	D	11B070D0	D		
+Expert	
+Diesel
+	MI30QD	D				
+Partner/Boxer	
+Diesel
+	MI28KD	D	11B060 ALTA	D	
+Clio	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Clio 2	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Express	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Kangoo	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Laguna	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Master 2.5	
+Diesel
+	MI30QD	D			B23-R	D
+Megane	
+Diesel
+	MI28KD	D	11B070D0	D	B19	D
+Megane II	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+R18	
+Diesel
+	MSA22RD	D	
+R19	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Scenic	
+Diesel
+	MI28KD	D	11B070D1	D	B-21	D
+Scenic II	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Trafic	
+Diesel
+	MSA30LD	D	11B070D1	D	B22-TC	D
+Magnum -AE 430/440 	
+Diesel
+	MSA46BD		11B170D1		B27	D
+MS -300 	
+Diesel
+	MSA46BD		11B170D1		B27	D
+Premium -300/320/330/340/370/380/385	
+Diesel
+	MSA46BD		11B170D1		B27	D
+Premium -420	
+Diesel
+	MSA46BD		11B170D1		B27	I
+Kerax -440.34	
+Diesel
+	MSA46BD		11B170D1		B27	I
+420D	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+620	
+Diesel
+	MI28KD	D	11B070D1	D	B-21	D
+P 310 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+P 270 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+P 114/124 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+R 114/124 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+T 114/124	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+P340/P310	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+R340/R380 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+R420 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+P420 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+G340/G380	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+G420/G470	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+R470 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+R500 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+P270 	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Omnibus 	
+Diesel
+	MSA52BD	D	11B200D1	D	B31	D
+L111	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+Cordoba 1.9D/TD/TDI	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Inca	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Toledo 1.9	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Action	
+Diesel
+	MI28TD	D			B22 TL	D
+Actyon Sport	
+Diesel
+	MI28TD	D			B22 TL	D
+Korando	
+Diesel
+	MI28TD	D			B22 TL	D
+Musso	
+Diesel
+	MI28TD	D			B22 TL	D
+Stavic	
+Diesel
+	MI28TD	D			B22 TL	D
+Grand Vitara 2.0	
+Diesel
+	MI28TD	D			B22 TL	D
+Corolla	
+Diesel
+	MI26AD	D	11B060 ALTA	D	B19-RP	D
+Corona	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Hilux 2.8 
+Diesel
+	MSA22RE	I			B22 TCI	I
+Hilux SW4 3.0TD	
+Diesel
+	MI28TD	D			B 22 TL	D
+Land Cruiser 200	
+Diesel
+	MSA22RE	I			B22 TCI	I
+Land Cruiser Prado	
+Diesel
+	MSA22RE	I			B22 TCI	I
+850 TDI	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+940/960	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+FH -400/440/480/520 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+FM -370 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+FM -400/440/480 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+FM11 -370 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+FH12 -340/380 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+FH12 -420/460 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+FM12 -340	
+Diesel
+	MSA46BD		11B170D1		B27	I
+NH12 -380	
+Diesel
+	MSA46BD		11B170D1		B27	I
+NH12 -460 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+VM -210/260 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+VM -310 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+VM17 -240 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+VM23 -210/240 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+NL10 -320 	
+Diesel
+	MSA46BD		11B170D1		B27	I
+NL320/340/ 360/ 410	
+Diesel
+	MSA30HA	I	11B100E1	I	B23-R	I
+S40/V40	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+S70	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+S80 2.9 / T6	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+15-160/35	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+15-160/43	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+15-160/48	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+17-220/35	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+17-220/43	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+17-220/48	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+17-300/35	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+17-300/43	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+26-260/34	
+Diesel
+	MSA46BD	D	11B170D1	D	B27	D
+8150	
+DIESEL
+	MSA30HA					
+9-140	
+Diesel
+	MSA30HA		11A100E1		B23-R	I
+Amarok	
+Diesel
+	MI30QD	D				
+Bora 1.9 TD	
+Diesel
+	MSA30LD	D				
+Caddy	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Caddy nueva	
+Diesel
+	MSA30LD	D	11B070D1			
+Gol / Polo/Country 	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Golf GTD (95>98)	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Golf TDI (99>)	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Passat TDI (96>)	
+Diesel
+	MSA30LD	D	11B070D1	D	
+Polo (99>)	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Polo Nuevo	
+Diesel
+	MSA30LD	D	11B070D1	D		
+Saveiro	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Senda / Gacel	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Sharan 1.9	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Suran 1.9	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Transporter 1.9/2.4	
+Diesel
+	MSA30LD	D	11A070D1	D		
+Voyage	
+Diesel
+	MI28KD	D	11B070D1	D	B21	D
+Xterra/Xtrail	
+Diesel
+	MI28TE	D			B22 TLI	I											
