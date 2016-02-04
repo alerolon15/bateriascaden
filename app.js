@@ -130,6 +130,12 @@ app.get('/consulta',function(req,res){
 app.post('/actualizar',function(req,res){
 	Bateria.find({},function(err,docus){
 		if(err){console.log(err)}
+	Bateria.find({marca: "Caden"},function(err,caden){
+		if(err){console.log(err)}
+	Bateria.find({marca: "Moura"},function(err,moura){
+		if(err){console.log(err)}
+	Bateria.find({marca: "ACDelco"},function(err,acdelco){
+		if(err){console.log(err)}
 
 	var bats = [];
 	for (var i = docus.length - 1; i >= 0; i--) {
@@ -144,17 +150,29 @@ app.post('/actualizar',function(req,res){
         Dominio: req.body.Dominio,
         auto: docu[0],
         bat: docus,
-        bats
+        bats,
+        caden: caden,
+        moura: moura,
+        acdelco: acdelco
 
     };
     res.render('actualizar.html',options);
 	});
 });
 });
+});
+});
+});
+
 app.post('/actualizarautos',function(req,res){
 	Bateria.find({},function(err,docus){
 		if(err){console.log(err)}
-
+	Bateria.find({marca: "Caden"},function(err,caden){
+		if(err){console.log(err)}
+	Bateria.find({marca: "Moura"},function(err,moura){
+		if(err){console.log(err)}
+	Bateria.find({marca: "ACDelco"},function(err,acdelco){
+		if(err){console.log(err)}
 
 	var bats = [];
 	for (var i = docus.length - 1; i >= 0; i--) {
@@ -169,11 +187,17 @@ app.post('/actualizarautos',function(req,res){
         Dominio: req.body.Dominio,
         auto: docu[0],
         bat: docus,
-        bats
+        bats,
+        caden: caden,
+        moura: moura,
+        acdelco: acdelco
 
     };
     res.render('actualizar.html',options);
 	});
+});
+});
+});
 });
 });
 
@@ -321,7 +345,9 @@ app.get('/registro',function(req,res){
         caden: caden,
         moura: moura,
         acdelco: acdelco,
+        tam: "4",
         autos
+
     };
     res.render('registro.html',options);
 });
@@ -423,6 +449,7 @@ app.get('/agregarautos',function(req,res){
         caden: caden,
         moura: moura,
         acdelco: acdelco,
+        tam: "3",
         autos
     };
 

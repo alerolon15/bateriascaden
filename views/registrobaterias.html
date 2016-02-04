@@ -4,7 +4,7 @@
 				<form name="f1" method="POST" action="/agregarbaterias">
 					<div class="row">	
 						<label for="Codigo" class="labelRegistro col-xs-3">Codigo</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Codigo" placeholder="Ingresar Codigo (sin usar espacios en blanco)" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Codigo" placeholder="Ingresar Codigo (sin usar espacios en blanco)" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="Marca" class="labelRegistro col-xs-3">Marca</label>
@@ -20,7 +20,7 @@
 					</div>
 					<div class="row">
 						<label for="Modelo" class="labelRegistro col-xs-3">Modelo</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Modelo" placeholder="Ingresar Modelo" >
+						<input class="form-control col-xs-9" id="registro" type="text" name="Modelo" placeholder="Ingresar Modelo" autocomplete="off">
 					</div>
 					<div class="row">	
 						<label for="Voltaje" class="labelRegistro col-xs-3">Voltaje</label>
@@ -32,15 +32,15 @@
 					</div>
 					<div class="row">
 						<label for="Amperaje" class="labelRegistro col-xs-3">Amperaje</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Amperaje" placeholder="Ingresar Amperaje" >
+						<input class="form-control col-xs-9" id="registro" type="text" name="Amperaje" placeholder="Ingresar Amperaje" autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="CCA" class="labelRegistro col-xs-3">CCA</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="CCA" placeholder="Ingresar CCA" >
+						<input class="form-control col-xs-9" id="registro" type="text" name="CCA" placeholder="Ingresar CCA" autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="RC" class="labelRegistro col-xs-3">RC</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="RC" placeholder="Ingresar RC" >
+						<input class="form-control col-xs-9" id="registro" type="text" name="RC" placeholder="Ingresar RC" autocomplete="off">
 					</div>
 					<div class="row">	
 						<label for="Borne" class="labelRegistro col-xs-3">Borne</label>
@@ -54,13 +54,13 @@
 						<label for="Medidas" class="labelRegistro col-xs-3">Medidas</label>
 					</div>
 					<div class="row">
-						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Alto" placeholder="Ingresar Alto" >
-						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Ancho" placeholder="Ingresar Ancho" >
-						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Largo" placeholder="Ingresar Largo" >
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Alto" placeholder="Ingresar Alto" autocomplete="off">
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Ancho" placeholder="Ingresar Ancho" autocomplete="off">
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Largo" placeholder="Ingresar Largo" autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="Precio" class="labelRegistro col-xs-3">Precio</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Precio" placeholder="Ingresar Precio" >
+						<input class="form-control col-xs-9" id="registro" type="text" name="Precio" value="$" placeholder="Ingresar Precio" autocomplete="off">
 					</div>
 					<br>
 					<input href="" class="btn btn-danger" type="submit" value="Guardar"></input>

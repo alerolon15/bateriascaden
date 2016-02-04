@@ -1,3 +1,4 @@
+var _this = this;
 //defino una serie de varibles Array para cada marca
 var modelos_Agrale=new Array("Seleccione Modelo", "6000 RD C/Doble ","6000 RD Furgovan ","7500 RD E Mec.","7500 CD E Mec. C/Doble ","1600 Omnibus/ Furgon","8500 TCE E-Tronic  ","9200 TCA C/Simple","TX 1600")
 var modelos_AlfaRomeo=new Array("Seleccione Modelo","145/146 1.8","145/146 2.0 ","145/146 2.0 Turbo ","155/164 2.0 ","156 2.0 ","156 2.4 Turbo ","164 V6 3.0 ","Giuletta","Mito")
@@ -73,5 +74,20 @@ function cambia_modelo(){
 }
 
 function catalogo(){
-	document.getElementById('catalogo').classList.remove('hide');
+	if($( "#catalogo" ).hasClass( "hide" )){
+		document.getElementById('catalogo').classList.remove('hide')
+	}else {document.getElementById('catalogo').classList.add('hide')}
+};
+
+function filtro(selector){
+	if($( ".sel" ).hasClass( "active" )){
+		$( ".sel" ).removeClass( "active" );
+		$( selector ).addClass("active");
+
+	if($('#Todos').hasClass('active')){
+		$('.catalog').removeClass('hide');
+	}else
+		$('.catalog').addClass('hide');
+		$("." + $( selector )[0].id).removeClass("hide");
+	}
 };

@@ -5,7 +5,7 @@
 					<div class="row">	
 						<label for="Codigo" class="labelRegistro col-xs-3">Codigo</label>
 						<input class="form-control col-xs-9 hide" id="registro" type="text" name="Codigo" placeholder="Ingresar Codigo" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required value={{bateria._id}}>
-						<input class="form-control col-xs-9" id="registro" type="text" name="" placeholder="Ingresar Codigo" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus disabled required value={{bateria._id}}>
+						<input class="form-control col-xs-9" id="registro" type="text" name="" placeholder="Ingresar Codigo" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus disabled required value={{bateria._id} autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="Marca" class="labelRegistro col-xs-3">Marca</label>
@@ -24,11 +24,11 @@
 					</div>
 					<div class="row">
 						<label for="Modelo" class="labelRegistro col-xs-3">Modelo</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Modelo" placeholder="Ingresar Modelo" value={{bateria.modelo}}>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Modelo" placeholder="Ingresar Modelo" value={{bateria.modelo}} autocomplete="off">
 					</div>
 					<div class="row">	
 						<label for="Voltaje" class="labelRegistro col-xs-3">Voltaje</label>
-						<select class="form-control col-xs-9 selector" name="Voltaje" value={{bateria.voltaje}}>
+						<select class="form-control col-xs-9 selector" name="Voltaje" value={{bateria.voltaje}} >
 							<option value={{bateria.voltaje}} selected>{{bateria.voltaje}}</option>
 							<option value="">Seleccione Voltaje</option>
 							<option value="6">6</option>
@@ -37,15 +37,15 @@
 					</div>
 					<div class="row">
 						<label for="Amperaje" class="labelRegistro col-xs-3">Amperaje</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Amperaje" placeholder="Ingresar Amperaje" value={{bateria.amperaje}}>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Amperaje" placeholder="Ingresar Amperaje" value={{bateria.amperaje}} autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="CCA" class="labelRegistro col-xs-3">CCA</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="CCA" placeholder="Ingresar CCA" value={{bateria.cca}}>
+						<input class="form-control col-xs-9" id="registro" type="text" name="CCA" placeholder="Ingresar CCA" value={{bateria.cca}} autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="RC" class="labelRegistro col-xs-3">RC</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="RC" placeholder="Ingresar RC" value={{bateria.rc}}>
+						<input class="form-control col-xs-9" id="registro" type="text" name="RC" placeholder="Ingresar RC" value={{bateria.rc}} autocomplete="off">
 					</div>
 					<div class="row">	
 						<label for="Borne" class="labelRegistro col-xs-3">Borne</label>
@@ -60,13 +60,13 @@
 						<label for="Medidas" class="labelRegistro col-xs-3">Medidas</label>
 					</div>
 					<div class="row">
-						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Alto" placeholder="Ingresar Alto" value={{bateria.medidas.alto}}>
-						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Ancho" placeholder="Ingresar Ancho" value={{bateria.medidas.ancho}}>
-						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Largo" placeholder="Ingresar Largo" value={{bateria.medidas.largo}}>
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Alto" placeholder="Ingresar Alto" value={{bateria.medidas.alto}} autocomplete="off">
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Ancho" placeholder="Ingresar Ancho" value={{bateria.medidas.ancho}} autocomplete="off">
+						<input class="form-control col-xs-3 col-lg-3" id="registro" type="text" name="Largo" placeholder="Ingresar Largo" value={{bateria.medidas.largo}} autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="Precio" class="labelRegistro col-xs-3">Precio</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Precio" placeholder="Ingresar Precio"  value={{bateria.precio}}>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Precio" placeholder="Ingresar Precio"  value={{bateria.precio}} autocomplete="off">
 					</div>
 					<br>
 					<input href="" class="btn btn-danger" type="submit" value="Guardar"></input>

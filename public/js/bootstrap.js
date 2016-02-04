@@ -1,13 +1,3 @@
-//Ver documentos inline
-2
-function verdoc($attr, $content) {
-3
-return '<iframe src="http://docs.google.com/gview?url='.$attr['href'] .'&embedded=true" style="width:550px; height:650px;" frameborder="0"></iframe>';
-4
-}
-5
-add_shortcode('verdoc', 'verdoc');
-
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.

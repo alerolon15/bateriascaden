@@ -1,10 +1,10 @@
 			<h2 align=center>Registrar</h2>
 
 			<div class="col-md-10 col-md-offset-1">
-				<form name="f1" method="POST" action="/registro">
+				<form name="f1" method="POST" action="{{post}}">
 					<div class="row">	
 						<label for="Dominio" class="labelRegistro col-xs-3">Dominio</label>
-						<input onkeyup="existe()" class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" style="text-transform:uppercase" onkeydown="javascript:this.value=this.value.toUpperCase();" autofocus required pattern="^[A-Z]{3}\d{3}$">
+						<input onkeyup="existe()" class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" style="text-transform:uppercase" onkeydown="javascript:this.value=this.value.toUpperCase();" autofocus required pattern="^[A-Z]{3}\d{3}$" autocomplete="off">
 					</div>
 					<div class="row">
 						<label for="Marca" class="labelRegistro col-xs-3">Marca</label>
@@ -92,7 +92,7 @@
 					</div>
 					<div class="row">
 						<label for="Modelo" class="labelRegistro col-xs-3">Modelo</label>
-						<select class="form-control col-xs-9 selector" name="Modelo" required>
+						<select onclick="recomendada()" id="modelo" class="form-control col-xs-9 selector" name="Modelo" required>
 							<option value="">Seleccione Modelo</option>
 						</select>
 					</div>
@@ -105,11 +105,11 @@
 					</div>
 					<div class="row">
 						<label for="Anio" class="labelRegistro col-xs-3">Año</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Anio" placeholder="Ingresar Año" required>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Anio" placeholder="Ingresar Año" required autocomplete="off">
 					</div>
 					<div class="row">	
 						<label for="Test" class="labelRegistro col-xs-3">Test</label>
-						<input class="form-control col-xs-9" id="registro" type="text" name="Test" placeholder="Ingresar Nombre archivo Test">
+						<input class="form-control col-xs-9" id="registro" type="text" name="Test" placeholder="Ingresar Nombre archivo Test" autocomplete="off">
 					</div>
 					<div class="row">	
 						<label for="Mecanico" class="labelRegistro col-xs-3">Mecanico</label>
@@ -124,108 +124,121 @@
 					<a onclick="catalogo()" class="btn btn-danger" style="margin:20px">Baterias</a>
 					<input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
 					<div class="row hide" id="catalogo">
-					<input class="hide" type="radio" name="Bateria" checked="checked" value="Ninguno">
+						<input class="hide" type="radio" name="Bateria" checked="checked" value="Ninguno">
 
-				<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo ACDelco</h2>	
-				<hr>
-				{{#each acdelco}}
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
-							<img src={{this.imagen}} class="img-responsive">
-							<hr>
-							<div class="caption">
-								<div>		
-								<span>Codigo:  </span><span>{{this._id}}</span>
-								<div>
-								</div>
-								<span>Marca:  </span><span>{{this.marca}}</span>
-								<div>
-								</div>
-								<span>Precio:  </span><span>{{this.precio}}</span>
-								<div>
-								</div>
-								<span>Forma de pago:  </span><span>3, 6, 12 cuotas</span>
-								<div>
-								</div>
-								<hr>
-								<label class="btn btn-danger"  style="">
-								<input  type="radio" name="Bateria"  value={{this._id}} > SELECCIONAR </label>
-							</div>
-						</div>
-					</div>
-					</div>
-				{{/each}}
-				
-				<div style="clear: both"></div>
-				<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo Caden</h2>	
-				<hr>
-				{{#each caden}}
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
-							<img src={{this.imagen}} class="img-responsive">
-							<hr>
-							<div class="caption">
-								<div>		
-								<span>Codigo:  </span><span>{{this._id}}</span>
-								<div>
-								</div>
-								<span>Marca:  </span><span>{{this.marca}}</span>
-								<div>
-								</div>
-								<span>Precio:  </span><span>{{this.precio}}</span>
-								<div>
-								</div>
-								<span>Forma de pago:  </span><span>3, 6, 12 cuotas</span>
-								<div>
-								</div>
-								<hr>
-								<label class="btn btn-danger"  style="">
-								<input  type="radio" name="Bateria"  value={{this._id}} > SELECCIONAR </label>
-							</div>
-						</div>
-					</div>
-					</div>
-				{{/each}}
-				
+						<label onclick="filtro('#Todos')" class="active btn sel" id="Todos" value="Todos">Todos</label>
+						<label onclick="filtro('#ACDelco')" class="btn sel" id="ACDelco" value="ACDelco">ACDelco</label>
+						<label onclick="filtro('#Caden')" class="btn sel" id="Caden" value="Caden">Caden</label>
+						<label onclick="filtro('#Moura')" class="btn sel" id="Moura" value="Moura">Moura</label>
+						
+						<hr>
 
-				<div style="clear: both"></div>
-				<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo Moura</h2>	
-				<hr>
-				{{#each moura}}
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="thumbnail">
-							<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
-							<img src={{this.imagen}} class="img-responsive">
+						<div class="ACDelco catalog">
+							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo ACDelco</h2>	
 							<hr>
-							<div class="caption">
-								<div>		
-								<span>Codigo:  </span><span>{{this._id}}</span>
-								<div>
+							{{#each acdelco}}
+								<div class="col-xs-12 col-sm-6 col-md-4" id="{{this._id}}">
+									<div class="thumbnail">
+										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
+										<img src={{this.imagen}} class="img-responsive">
+										<hr>
+										<div class="caption">
+											<div>		
+											<span>Codigo:  </span><span>{{this._id}}</span>
+											<div>
+											</div>
+											<span>Marca:  </span><span>{{this.marca}}</span>
+											<div>
+											</div>
+											<span>Precio:  </span><span>{{this.precio}}</span>
+											<div>
+											</div>
+											<span>Forma de pago:  </span><span>3, 6, 12 cuotas</span>
+											<div>
+											</div>
+											<hr>
+											<label class="btn btn-danger"  style="">
+											<input  type="radio" name="Bateria"  value={{this._id}} > SELECCIONAR </label>
+										</div>
+									</div>
 								</div>
-								<span>Marca:  </span><span>{{this.marca}}</span>
-								<div>
 								</div>
-								<span>Precio:  </span><span>{{this.precio}}</span>
-								<div>
+							{{/each}}
+						</div>	
+						<div style="clear: both"></div>
+						<div class="Caden catalog">
+							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo Caden</h2>	
+							<hr>
+							{{#each caden}}
+								<div class="col-xs-12 col-sm-6 col-md-4" id="{{this._id}}">
+									<div class="thumbnail">
+										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
+										<img src={{this.imagen}} class="img-responsive">
+										<hr>
+										<div class="caption">
+											<div>		
+											<span>Codigo:  </span><span>{{this._id}}</span>
+											<div>
+											</div>
+											<span>Marca:  </span><span>{{this.marca}}</span>
+											<div>
+											</div>
+											<span>Precio:  </span><span>{{this.precio}}</span>
+											<div>
+											</div>
+											<span>Forma de pago:  </span><span>3, 6, 12 cuotas</span>
+											<div>
+											</div>
+											<hr>
+											<label class="btn btn-danger"  style="">
+											<input  type="radio" name="Bateria"  value={{this._id}} > SELECCIONAR </label>
+										</div>
+									</div>
 								</div>
-								<span>Forma de pago:  </span><span>3, 6, 12 cuotas</span>
-								<div>
 								</div>
-								<hr>
-								<label class="btn btn-danger"  style="">
-								<input  type="radio" name="Bateria"  value={{this._id}} > SELECCIONAR </label>
+							{{/each}}
+						</div>	
+
+						<div style="clear: both"></div>
+						
+						<div class="Moura catalog ">
+							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Catalogo Moura</h2>	
+							<hr>
+							{{#each moura}}
+								<div class="col-xs-12 col-sm-6 col-md-4" id="{{this._id}}">
+									<div class="thumbnail">
+										<h3 style="background: rgba(256, 256, 256, 0.50); color:#333">{{this.marca}}</h3>
+										<img src={{this.imagen}} class="img-responsive">
+										<hr>
+										<div class="caption">
+											<div>		
+											<span>Codigo:  </span><span>{{this._id}}</span>
+											<div>
+											</div>
+											<span>Marca:  </span><span>{{this.marca}}</span>
+											<div>
+											</div>
+											<span>Precio:  </span><span>{{this.precio}}</span>
+											<div>
+											</div>
+											<span>Forma de pago:  </span><span>3, 6, 12 cuotas</span>
+											<div>
+											</div>
+											<hr>
+											<label class="btn btn-danger"  style="">
+											<input  type="radio" name="Bateria"  value={{this._id}} > SELECCIONAR </label>
+										</div>
+									</div>
+								</div>
 							</div>
+							{{/each}}
 						</div>
-					</div>
-					</div>
-				{{/each}}
+						
+						<div style="clear: both"></div>
+						
+							<input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
 				
-				<div style="clear: both"></div>
-					<input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
-				
-				</div>
+					</div>
 
 				
 				</form>
@@ -234,6 +247,17 @@
 	<script src="public/js/select.js"></script>
 
 <script>
+
+</script>
+
+<script>
+
+function recomendada(){
+	var search = document.getElementById('modelo').value;
+	console.log(search)
+};
+
+var tam = {{tam}};
 
 var autos = ["asd123","tat111"];
 {{#each autos}}
