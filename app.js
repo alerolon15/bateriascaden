@@ -81,7 +81,7 @@ app.post('/registro',function(req,res){
 	Mecanico: req.body.Mecanico
 	};
     var options = {
-        layout:"layout.html",
+        layout:"dashboard.html",
     };
     var auto = new Auto(data);
 
@@ -89,7 +89,7 @@ app.post('/registro',function(req,res){
 		console.log(auto);
 	});
     
-    res.render('index.html',options);
+    res.redirect('/');
 });
 
 app.post('/registro2',function(req,res){
@@ -140,6 +140,7 @@ app.post('/actualizar',function(req,res){
 		if(err){console.log(err)}
 	var options = {
         layout:"layout.html",
+        post: "/actualizado",
         Dominio: req.body.Dominio,
         auto: docu[0],
         bat: docus,
@@ -164,13 +165,14 @@ app.post('/actualizarautos',function(req,res){
 		if(err){console.log(err)}
 	var options = {
         layout:"dashboard.html",
+        post: "/actualizado2",
         Dominio: req.body.Dominio,
         auto: docu[0],
         bat: docus,
         bats
 
     };
-    res.render('actualizar2.html',options);
+    res.render('actualizar.html',options);
 	});
 });
 });
@@ -217,7 +219,7 @@ app.post('/actualizarbat',function(req,res){
 	_id: req.body.Codigo,
 	marca: req.body.Marca,
 	modelo: req.body.Modelo,
-	imagen: "public/images/bateria_portada.png",
+	imagen: "public/images/" + req.body.Marca + ".png",
 	voltaje: req.body.Voltaje,
 	amperaje: req.body.Amperaje,
 	cca: req.body.CCA,
@@ -256,10 +258,7 @@ app.post('/actualizado',function(req,res){
 			if(err){console.log(err)}
 		});
 
-	var options = {
-        layout:"layout.html"
-    };
-    res.render('index.html',options);
+    res.redirect('/');
 	});
 
 app.post('/actualizado2',function(req,res){
@@ -284,23 +283,10 @@ app.post('/actualizado2',function(req,res){
 		});
 
 
-	var busca = req.body;
-	Auto.find({},function(err,docu){
-		if(err){console.log(err)}
 
-	var todos = [];
-	for (var i = docu.length - 1; i >= 0; i--) {
-		todos[i] = docu[i];
-	};
+    res.redirect('/tablaautos');
+	});
 
-	var options = {
-        layout:"dashboard.html",
-        auto: docu,
-        todos
-    };
-    res.render('tablaautos.html',options);
-	});
-	});
 
 app.post('/consulta', function(req,res){
 	var busca = req.body;
@@ -320,14 +306,23 @@ app.post('/consulta', function(req,res){
 
 
 app.get('/registro',function(req,res){
-    Bateria.find({},function(err,docus){
+    Bateria.find({marca: "Caden"},function(err,caden){
+		if(err){console.log(err)}
+	Bateria.find({marca: "Moura"},function(err,moura){
+		if(err){console.log(err)}
+	Bateria.find({marca: "ACDelco"},function(err,acdelco){
 		if(err){console.log(err)}
 		
 	var options = {
         layout:"layout.html",
-        bat: docus
+        post: "/registro",
+        caden: caden,
+        moura: moura,
+        acdelco: acdelco
     };
     res.render('registro.html',options);
+});
+});
 });
 });
 
@@ -350,7 +345,7 @@ app.post('/agregarbaterias',function(req,res){
 	_id: req.body.Codigo,
 	marca: req.body.Marca,
 	modelo: req.body.Modelo,
-	imagen: "public/images/bateria_portada.png",
+	imagen: "public/images/" + req.body.Marca + ".png",
 	voltaje: req.body.Voltaje,
 	amperaje: req.body.Amperaje,
 	cca: req.body.CCA,
@@ -410,16 +405,25 @@ app.get('/graficos',function(req,res){
 
 app.get('/agregarautos',function(req,res){
 
-    Bateria.find({},function(err,docus){
+    Bateria.find({marca: "Caden"},function(err,caden){
+		if(err){console.log(err)}
+	Bateria.find({marca: "Moura"},function(err,moura){
+		if(err){console.log(err)}
+	Bateria.find({marca: "ACDelco"},function(err,acdelco){
 		if(err){console.log(err)}
 		
 	var options = {
         layout:"dashboard.html",
-        bat: docus
+        post: "/registro2",
+        caden: caden,
+        moura: moura,
+        acdelco: acdelco
     };
 
-    res.render('registro2.html',options);
+    res.render('registro.html',options);
 	});
+});
+});
 });
 
 app.get('/tablaautos',function(req,res){
@@ -457,5 +461,5 @@ app.get('/tablabaterias',function(req,res){
 });
 
 app.listen(3000,function(){
-    console.log("SERVER UP");
+    console.log("El Servidor esta listo");
 });

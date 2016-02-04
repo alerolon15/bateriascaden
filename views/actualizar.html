@@ -1,7 +1,7 @@
-			<h2>Actualizar</h2>
+			<h2 align=center>Actualizar</h2>
 
 			<div class="col-md-10 col-md-offset-1">
-				<form name="f1" method="POST" action="/actualizado">
+				<form name="f1" method="POST" action="{{post}}">
 					<div class="row">	
 						<label for="Dominio" class="labelRegistro col-xs-3">Dominio</label>
 						<input class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required pattern="^[A-Z]{3}\d{3}$" value={{auto.Dominio}}>
@@ -126,7 +126,8 @@
 					<a onclick="catalogo()" class="btn btn-danger" style="margin:20px">Baterias</a>
                     <input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
                     <div class="row hide" id="catalogo">
-                    
+                    <input class="hide" type="radio" name="Bateria" checked="checked" value={{auto.Bateria}}>
+
                 {{#each bat}}
 					<div class="col-xs-12 col-sm-6 col-md-4">
 						<div class="thumbnail">
