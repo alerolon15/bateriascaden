@@ -147,7 +147,7 @@ app.get('/admin',function(req,res){
 });
 
 app.get('/tablaautos',function(req,res){
-
+	if(req.session && req.session.user){
 	var busca = req.body;
 	Auto.find({},function(err,docu){
 		if(err){console.log(err)}
@@ -165,10 +165,14 @@ app.get('/tablaautos',function(req,res){
 
     res.render('tablaautos.html',options);
 	});
+	}else{
+		res.redirect("/login")
+	};
 });
 
 
 app.get('/tablabaterias',function(req,res){
+	if(req.session && req.session.user){
     Bateria.find({},function(err,docus){
 		if(err){console.log(err)}
 		
@@ -178,9 +182,13 @@ app.get('/tablabaterias',function(req,res){
     };
     res.render('tablabaterias.html',options);
 });
+	}else{
+		res.redirect("/login")
+	};
 });
 
 app.get('/agregarbaterias',function(req,res){
+	if(req.session && req.session.user){
     Bateria.find({},function(err,docus){
 		if(err){console.log(err)}
 		
@@ -190,6 +198,9 @@ app.get('/agregarbaterias',function(req,res){
     };
     res.render('registrobaterias.html',options);
 });
+    }else{
+		res.redirect("/login")
+	};
 });
 
 app.post('/agregarbaterias',function(req,res){
@@ -221,7 +232,7 @@ app.post('/agregarbaterias',function(req,res){
 
 
 app.get('/graficos',function(req,res){
-    
+    if(req.session && req.session.user){
     Auto.count({Bateria:"BAT001"},function(err,dominios){
 		if(err){console.log(err)}
 
@@ -237,9 +248,13 @@ app.get('/graficos',function(req,res){
     res.render('graficos.html',options);
 });
 });
+    }else{
+		res.redirect("/login")
+	};
 });
 
 app.get('/agregarautos',function(req,res){
+	if(req.session && req.session.user){
 	Auto.find({},{_id:0,Dominio:1},function(err,autos){
 		if(err){console.log(err)}
     Bateria.find({marca: "Caden"},function(err,caden){
@@ -264,15 +279,22 @@ app.get('/agregarautos',function(req,res){
 });
 });
 });
+	}else{
+		res.redirect("/login")
+	};
 });
 
 app.get('/consulta',function(req,res){
+if(req.session && req.session.user){
     var options = {
         layout:"layout.html",
         Dominio: req.body.Dominio,
         auto: docu[0]
     };
     res.render('consulta.html',options);
+    }else{
+		res.redirect("/login")
+	};
 });
 
 app.post('/consulta', function(req,res){
@@ -292,6 +314,7 @@ app.post('/consulta', function(req,res){
 });
 
 app.get('/registro',function(req,res){
+	if(req.session && req.session.user){
 	Auto.find({},{_id:0,Dominio:1},function(err,autos){
 		if(err){console.log(err)}
     Bateria.find({marca: "Caden"},function(err,caden){
@@ -316,6 +339,9 @@ app.get('/registro',function(req,res){
 });
 });
 });
+	}else{
+		res.redirect("/login")
+	};
 });
 
 app.post('/registro',function(req,res){
