@@ -69,7 +69,7 @@ var Bateria = mongoose.model("Bateria", batSchema);
 
 
 app.get('/login',function(req,res){
-
+		req.session.reset();
 		var options = {
         layout:"layout.html",
         hide: "hide"
