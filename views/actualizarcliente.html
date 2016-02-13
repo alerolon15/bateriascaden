@@ -1,0 +1,64 @@
+			<h2 align=center>Actualizar Cliente</h2>
+
+			<div class="col-md-10 col-md-offset-1">
+				<form name="f1" method="POST" action="/actualizarcli">
+					<div class="row">	
+						<label for="Id" class="labelRegistro col-xs-3">Cliente Nro</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Id" placeholder="Ingresar Numero de Cliente" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" autofocus required autocomplete="off" value={{cliente.Id}}>
+					</div>
+					<div class="row">
+						<label for="Nombre" class="labelRegistro col-xs-3">Nombre</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Nombre" placeholder="Ingresar Nombre" autocomplete="off" value={{cliente.Nombre}}>
+					</div>
+					<div class="row">
+						<label for="Apellido" class="labelRegistro col-xs-3">Apellido</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Apellido" placeholder="Ingresar Apellido" autocomplete="off" value={{cliente.Apellido}}>
+					</div>
+					<div class="row">
+						<label for="Telefono" class="labelRegistro col-xs-3">Telefono</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Telefono" placeholder="Ingresar Telefono" autocomplete="off" value={{cliente.Telefono}}>
+					</div>
+					<div class="row">
+						<label for="Correo" class="labelRegistro col-xs-3">Correo</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Correo" placeholder="Ingresar Correo" autocomplete="off" value={{cliente.Correo}}>
+					</div>
+					<div class="row">
+						<label for="Tipo" class="labelRegistro col-xs-3">Tipo</label>
+						<select class="form-control col-xs-9 selector" name="Tipo" required value={{cliente.Tipo}}>
+
+									<option value={{cliente.Tipo}} selected>{{cliente.Tipo}}</option>
+
+									<option value="">Seleccione Tipo</option>
+
+									<option value="Nuevo">Nuevo</option>
+
+							        <option value="Frecuente">Frecuente</option>
+              
+							        <option value="Fiel">Fiel</option>
+
+							        <option value="Vip">Vip</option>
+						</select>
+					</div>
+					<div class="row">
+						<label for="Importe 1" class="labelRegistro col-xs-3">Importe 1</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Imp1" placeholder="Ingresar Importe 1" autocomplete="off" value={{cliente.Imp1}}>
+					</div>
+					<div class="row">
+						<label for="Importe 2" class="labelRegistro col-xs-3">Importe 2</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Imp2" placeholder="Ingresar Importe 2" autocomplete="off" value={{cliente.Imp2}}>
+					</div>
+					<div class="row">
+						<label for="Importe 3" class="labelRegistro col-xs-3">Importe 3</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Imp3" placeholder="Ingresar Importe 3" autocomplete="off" value={{cliente.Imp3}}>
+					</div>
+					<div class="row">
+						<label for="Dominio" class="labelRegistro col-xs-3">Dominio</label>
+						<input class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" autocomplete="off" style="text-transform:uppercase" onkeyup="javascript:this.value=this.value.toUpperCase();" value={{cliente.Dominio}}>
+					</div>
+					<br>
+					<input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
+				
+				</form>
+			</div>
+
+
