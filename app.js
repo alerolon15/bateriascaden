@@ -11,9 +11,9 @@ var bodyParser = require('body-parser')
 mongoose.connect('mongodb://localhost/autos')
 var db = mongoose.connection;
 var Dominio = "";
-
-
 var session = require("client-sessions");
+
+
 
 
 app.use(bodyParser.json());
@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 //app.use(session({secret:"h17hd87ahhd917793dgasdg6",resave:false,saveUninitialized:true}));
 app.use(session({
 	cookieName: 'session',
-	secret: 'some_random_string',
+	secret: 'h17hd87ahhd917793dgasdg6',
 	duration: 30 * 60 * 1000,
 	activeDuration: 5 * 60 * 1000
 }));
