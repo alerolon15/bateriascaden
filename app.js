@@ -36,6 +36,21 @@ var userSchema = {
 
 var User = mongoose.model("User", userSchema);
 
+var clienteSchema = {
+	Id: String,
+	Nombre: String,
+	Apellido: String,
+	Telefono: String,
+	Correo: String,
+	Tipo: String,
+	Imp1: String,
+	Imp2: String,
+	Imp3: String,
+	Dominio: String
+};
+
+var Cliente = mongoose.model("Cliente", clienteSchema);
+
 var autoSchema = {
 	Dominio: { type: String, unique:true },
 	Marca: String,
@@ -132,13 +147,18 @@ app.get('/admin',function(req,res){
 	Bateria.count({},function(err,baterias){
 		if(err){console.log(err)}
 
+	Cliente.count({},function(err,clientes){
+		if(err){console.log(err)}
+
 		
 	var options = {
         layout:"dashboard.html",
         dominios,
-        baterias
+        baterias,
+        clientes
     };
     res.render('admin.html',options);
+});
 });
 });
 	}else{
@@ -187,6 +207,30 @@ app.get('/tablabaterias',function(req,res){
 	};
 });
 
+app.get('/tablaclientes',function(req,res){
+	if(req.session && req.session.user){
+	var busca = req.body;
+	Cliente.find({},function(err,docu){
+		if(err){console.log(err)}
+
+	var todos = [];
+	for (var i = docu.length - 1; i >= 0; i--) {
+		todos[i] = docu[i];
+	};
+		
+	var options = {
+        layout:"dashboard.html",
+        cliente: docu,
+        todos
+    };
+
+    res.render('tablaclientes.html',options);
+	});
+	}else{
+		res.redirect("/login")
+	};
+});
+
 app.get('/agregarbaterias',function(req,res){
 	if(req.session && req.session.user){
     Bateria.find({},function(err,docus){
@@ -229,7 +273,45 @@ app.post('/agregarbaterias',function(req,res){
     res.redirect('/admin');
 });
 
+app.get('/agregarcliente',function(req,res){
+	if(req.session && req.session.user){
+    Cliente.find({},function(err,docus){
+		if(err){console.log(err)}
+		
+	var options = {
+        layout:"dashboard.html",
+        bat: docus
+    };
+    res.render('registroclientes.html',options);
+});
+    }else{
+		res.redirect("/login")
+	};
+});
 
+app.post('/agregarcliente',function(req,res){
+
+	var data = {
+	Id: req.body.Id,
+	Nombre: req.body.Nombre,
+	Apellido: req.body.Apellido,
+	Telefono: req.body.Telefono,
+	Correo: req.body.Correo,
+	Tipo: req.body.Tipo,
+	Imp1: req.body.Imp1,
+	Imp2: req.body.Imp2,
+	Imp3: req.body.Imp3,
+	Dominio: req.body.Dominio
+	};
+
+    var cliente = new Cliente(data);
+
+	cliente.save(function(err){
+		console.log(cliente);
+	});
+    
+    res.redirect('/admin');
+});
 
 app.get('/graficos',function(req,res){
     if(req.session && req.session.user){
@@ -284,33 +366,27 @@ app.get('/agregarautos',function(req,res){
 	};
 });
 
-app.get('/consulta',function(req,res){
-if(req.session && req.session.user){
-    var options = {
-        layout:"layout.html",
-        Dominio: req.body.Dominio,
-        auto: docu[0]
-    };
-    res.render('consulta.html',options);
-    }else{
-		res.redirect("/login")
-	};
-});
 
 app.post('/consulta', function(req,res){
 	var busca = req.body;
 	Auto.find(busca,function(err,docu){
 		if(err){console.log(err)}
+	Cliente.find(busca,function(err,cliente){
+		if(err){console.log(err)}
+
+
 	var urltest = "public/archivo/";
 	var options = {
         layout:"layout.html",
         Dominio: req.body.Dominio,
         auto: docu[0],
-        urltest
+        urltest,
+        cliente: cliente[0]
     };
 	res.render('consulta.html',options);
 	
 	});
+});
 });
 
 app.get('/registro',function(req,res){
@@ -492,6 +568,17 @@ app.post('/borrarbaterias',function(req,res){
 	});
 	});
 
+app.post('/borrarcliente',function(req,res){
+
+	var busca = req.body;
+	Cliente.remove(busca,function(err,docu){
+		if(err){console.log(err)}
+			console.log(docu)
+
+    res.redirect('/tablaclientes');
+	});
+	});
+
 app.post('/actualizarbaterias',function(req,res){
 
 	var busca = req.body;
@@ -529,6 +616,44 @@ app.post('/actualizarbat',function(req,res){
 		});
 
     res.redirect('/tablabaterias');
+	});
+
+app.post('/actualizarcliente',function(req,res){
+
+	var busca = req.body;
+	Cliente.find(busca,function(err,docu){
+		if(err){console.log(err)}
+
+	var options = {
+        layout:"dashboard.html",
+        cliente: docu[0]
+    };
+
+    res.render('actualizarcliente.html',options);
+	});
+	});
+
+app.post('/actualizarcli',function(req,res){
+
+	var data = {
+	Id: req.body.Id,
+	Nombre: req.body.Nombre,
+	Apellido: req.body.Apellido,
+	Telefono: req.body.Telefono,
+	Correo: req.body.Correo,
+	Tipo: req.body.Tipo,
+	Imp1: req.body.Imp1,
+	Imp2: req.body.Imp2,
+	Imp3: req.body.Imp3,
+	Dominio: req.body.Dominio
+	};
+
+	Cliente.update({Id: req.body.Id},
+		data, function(err){
+			if(err){console.log(err)}
+		});
+
+    res.redirect('/tablaclientes');
 	});
 
 app.post('/actualizado',function(req,res){
