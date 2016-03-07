@@ -6,7 +6,7 @@
 					<input href="/consulta" id="consulta" class="btn btn-danger disabled" type="submit" value="Consultar Registro"></input>
 					<a id="crearnuevo" onclick="envdomin()" class="btn btn-danger">Crear Nuevo Registro</a>
 				</form>
-				<form method="post" id="myForm" action="/registro">
+				<form method="post" id="myForm" action="/registro" class="hide">
 					<input autocomplete="off" onkeyup="existe();copiar()" class="form-control" id="domin1" type="text" name="Dominio1" placeholder="Ingresar patente" style="text-transform:uppercase; margin:15px auto;" onkeydown="javascript:this.value=this.value.toUpperCase();" autofocus  required pattern="^[A-Z]{3}\d{3}$">
 				</form>
 			</div>
