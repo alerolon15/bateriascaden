@@ -38,3 +38,14 @@ function envdomin(){
 	document.getElementById("myForm").submit();	
 };
 </script>
+<script language=javascript type=text/javascript>
+
+function stopRKey(evt) {
+	if($("#consulta").hasClass("disabled") && evt.keyCode == 13){
+
+	var evt = (evt) ? evt : ((event) ? event : null);
+	var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+	if ((evt.keyCode == 13) && (node.type=="text")) { $("#crearnuevo").click(); return false;}}
+	}
+document.onkeypress = stopRKey; 
+</script>
