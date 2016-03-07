@@ -34,7 +34,7 @@
     "precio": "$1.409"
   },
   {
-    "_id": "B-19c",
+    "_id": "B-19C",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/Caden.png",
@@ -51,7 +51,7 @@
     "precio": "$1.345"
   },
   {
-    "_id": "B-19r",
+    "_id": "B-19R",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/Caden.png",
@@ -68,7 +68,7 @@
     "precio": "$1.568"
   },
   {
-    "_id": "B-19r-Blue-Libre",
+    "_id": "B-19R-Blue-Libre",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/Caden.png",
@@ -85,7 +85,7 @@
     "precio": "$1.917"
   },
   {
-    "_id": "B-19r-Alta",
+    "_id": "B-19R-Alta",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/Caden.png",
@@ -221,7 +221,7 @@
     "precio": "$2.816"
      },
   {
-    "_id": "B-23-R",
+    "_id": "B-23R",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/Caden.png",
@@ -238,7 +238,7 @@
     "precio": "$2.867"
      },
   {
-    "_id": "B-23-R-Blue",
+    "_id": "B-23R-Blue",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/Caden.png",
@@ -289,7 +289,7 @@
     "precio": "$2.814"
     },
   {
-    "_id": "B-25-R-Rastrojero",
+    "_id": "B-25R-Rastrojero",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/Caden.png",
@@ -306,7 +306,7 @@
     "precio": "$3.356"
     },
   {
-    "_id": "B-26ca",
+    "_id": "B-26CA",
     "marca": "Caden",
     "modelo": "12 Vol Termosellada",
     "imagen": "public/images/Caden.png",

@@ -72,24 +72,42 @@ function cambia_modelo(){
 	//marco como seleccionada la opción primera de modelos
 	document.f1.Modelo.options[0].selected = true
 }
-function filtrar(){
-
-	var search = document.getElementById("buscar"),
-    	bate = $( ".filt" ),
-    	forEach = Array.prototype.forEach;
-    	var choice = document.getElementById("buscar").value;
-    	forEach.call(bate, function(f){
-        if (f.innerHTML.toLowerCase().search(choice.toLowerCase()) == -1)
-            f.style.display = "none";        
-        else
-            f.style.display = "block";        
-    });
-};
 
 function catalogo(){
 	if($( "#catalogo" ).hasClass( "hide" )){
 		document.getElementById('catalogo').classList.remove('hide')
 	}else {document.getElementById('catalogo').classList.add('hide')}
+};
+
+
+
+var modeloscomp = new Array('1','164V63.0');
+console.log(modeloscomp.indexOf('164V63.0'));
+
+/* devuelve el valor de modelo sin espacios    document.getElementById('modelo').value.replace(/ /g,'');*/
+
+	var Codigos = {
+		Golf : { 	
+				Diesel : ["MSA30HA","11B100E2","B-23 R BLUE"],
+				Nafta: ["MI28KD","11B070D1","B-21 BLUE"]
+		},
+	};
+function recomendar(){
+	if($( "#recomendados" ).hasClass( "hide" )){
+			document.getElementById('recomendados').classList.remove('hide');}
+
+	var parametro = document.getElementById("modelo").value;
+	var Combustible = document.getElementById("combustible").value;
+	if(Combustible == "Diesel"){
+	document.getElementById("buscar1").value = Codigos[parametro].Diesel[0];
+	document.getElementById("buscar2").value = Codigos[parametro].Diesel[1];
+	document.getElementById("buscar3").value =  Codigos[parametro].Diesel[2];}
+	else{
+	document.getElementById("buscar1").value = Codigos[parametro].Nafta[0];
+	document.getElementById("buscar2").value = Codigos[parametro].Nafta[1];
+	document.getElementById("buscar3").value =  Codigos[parametro].Nafta[2];}
+    
+
 };
 
 function filtro(selector){
@@ -104,9 +122,55 @@ function filtro(selector){
 		$("." + $( selector )[0].id).removeClass("hide");
 	};
 };
+function filtrar(){
 
+	var search = document.getElementById("buscar"),
+    	bate = $( ".filt" ),
+    	forEach = Array.prototype.forEach;
+    	var choice = document.getElementById("buscar").value;
+    	forEach.call(bate, function(f){
+        if (f.innerHTML.toLowerCase().search(choice.toLowerCase()) == -1)
+            f.style.display = "none";        
+        else
+            f.style.display = "block";        
+    });
+};
+function filtrar1(){
 
-var modeloscomp = new Array('1','164V63.0');
-console.log(modeloscomp.indexOf('164V63.0'));
+	var search1 = document.getElementById("buscar1"),
+    	bate = $( ".filt1" ),
+    	forEach = Array.prototype.forEach;
+    	var choice1 = document.getElementById("buscar1").value;
+    	forEach.call(bate, function(f){
+        if (f.innerHTML.toLowerCase().search(choice1.toLowerCase()) == -1 || document.getElementById("buscar1").value == "")
+            f.style.display = "none";        
+        else
+            f.style.display = "block";        
+    });
+};
+function filtrar2(){
 
-/* devuelve el valor de modelo sin espacios    document.getElementById('modelo').value.replace(/ /g,'');*/
+	var search2 = document.getElementById("buscar2"),
+    	bate = $( ".filt2" ),
+    	forEach = Array.prototype.forEach;
+    	var choice2 = document.getElementById("buscar2").value;
+    	forEach.call(bate, function(f){
+        if (f.innerHTML.toLowerCase().search(choice2.toLowerCase()) == -1 || document.getElementById("buscar2").value == "")
+            f.style.display = "none";        
+        else
+            f.style.display = "block";        
+    });
+};
+function filtrar3(){
+
+	var search1 = document.getElementById("buscar3"),
+    	bate = $( ".filt3" ),
+    	forEach = Array.prototype.forEach;
+    	var choice3 = document.getElementById("buscar3").value;
+    	forEach.call(bate, function(f){
+        if (f.innerHTML.toLowerCase().search(choice3.toLowerCase()) == -1 || document.getElementById("buscar3").value == "")
+            f.style.display = "none";        
+        else
+            f.style.display = "block";        
+    });
+};
