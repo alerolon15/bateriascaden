@@ -75,7 +75,7 @@ function cambia_modelo(){
 
 function catalogo(){
 	if($( "#catalogo" ).hasClass( "hide" )){
-		document.getElementById('catalogo').classList.remove('hide')
+		document.getElementById('catalogo').classList.remove('hide');
 	}else {document.getElementById('catalogo').classList.add('hide')}
 };
 
@@ -92,23 +92,7 @@ console.log(modeloscomp.indexOf('164V63.0'));
 				Nafta: ["MI28KD","11B070D1","B-21-BLUE"]
 		},
 	};
-function recomendar(){
-	if($( "#recomendados" ).hasClass( "hide" )){
-			document.getElementById('recomendados').classList.remove('hide');}
 
-	var parametro = document.getElementById("modelo").value;
-	var Combustible = document.getElementById("combustible").value;
-	if(Combustible == "Diesel"){
-	document.getElementById("buscar1").value = Codigos[parametro].Diesel[0];
-	document.getElementById("buscar2").value = Codigos[parametro].Diesel[1];
-	document.getElementById("buscar3").value =  Codigos[parametro].Diesel[2];}
-	else{
-	document.getElementById("buscar1").value = Codigos[parametro].Nafta[0];
-	document.getElementById("buscar2").value = Codigos[parametro].Nafta[1];
-	document.getElementById("buscar3").value =  Codigos[parametro].Nafta[2];}
-    
-
-};
 
 function filtro(selector){
 	if($( ".sel" ).hasClass( "active" )){
@@ -173,4 +157,25 @@ function filtrar3(){
         else
             f.style.display = "block";        
     });
+};
+
+function recomendar(){
+	if($( "#recomendados" ).hasClass( "hide" )){
+			document.getElementById('recomendados').classList.remove('hide');}
+
+	var parametro = document.getElementById("modelo").value;
+	var Combustible = document.getElementById("combustible").value;
+	if(Combustible == "Diesel"){
+	document.getElementById("buscar1").value = Codigos[parametro].Diesel[0];
+	document.getElementById("buscar2").value = Codigos[parametro].Diesel[1];
+	document.getElementById("buscar3").value =  Codigos[parametro].Diesel[2];}
+	else if(Combustible == "Nafta"){
+	document.getElementById("buscar1").value = Codigos[parametro].Nafta[0];
+	document.getElementById("buscar2").value = Codigos[parametro].Nafta[1];
+	document.getElementById("buscar3").value =  Codigos[parametro].Nafta[2];}
+	else{document.getElementById("buscar1").value = "";
+	document.getElementById("buscar2").value = "";
+	document.getElementById("buscar3").value =  "";}
+    
+
 };

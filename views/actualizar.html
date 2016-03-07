@@ -125,14 +125,15 @@
 						</select>
 					</div>
 
-					<a onclick="catalogo();filtrar1();filtrar2();filtrar3()" class="btn btn-danger" style="margin:20px">Baterias</a>
+					<a onclick="catalogo();init();filtro('#Todos');filtrar1();filtrar2();filtrar3()" class="btn btn-danger" style="margin:20px">Baterias</a>
 					<input href="" class="btn btn-danger" type="submit" value="Guardar"></input>
 					<div class="row hide" id="catalogo">
 						
 						<div class="Recomendado hide" id="recomendados">
-							<input style="width: 100%;" onkeyup="filtrar1()" class="form-control col-xs-9 hide" id="buscar1" type="text" name="buscar" placeholder="Buscar Bateria por Codigo" autocomplete="off"><div style="clear: both"></div>
-							<input style="width: 100%;" onkeyup="filtrar2()" class="form-control col-xs-9 hide" id="buscar2" type="text" name="buscar" placeholder="Buscar Bateria por Codigo" autocomplete="off"><div style="clear: both"></div>
-							<input style="width: 100%;" onkeyup="filtrar3()" class="form-control col-xs-9 hide" id="buscar3" type="text" name="buscar" placeholder="Buscar Bateria por Codigo" autocomplete="off"><div style="clear: both"></div>
+							<input style="width: 100%;" onkeyup="filtrar1()" class="form-control col-xs-9 " id="buscar1" type="text" name="buscar" placeholder="Buscar Bateria por Codigo" autocomplete="off" value=""><div style="clear: both"></div>
+							<input style="width: 100%;" onkeyup="filtrar2()" class="form-control col-xs-9 " id="buscar2" type="text" name="buscar" placeholder="Buscar Bateria por Codigo" autocomplete="off" value=""><div style="clear: both"></div>
+							<input style="width: 100%;" onkeyup="filtrar3()" class="form-control col-xs-9 " id="buscar3" type="text" name="buscar" placeholder="Buscar Bateria por Codigo" autocomplete="off" value=""><div style="clear: both"></div>
+
 							<h2 style="background: rgba(256, 256, 256, 0.50); color:#333">Baterias recomendadas para su auto</h2>	
 							<hr>
 							{{#each todas}}
@@ -345,6 +346,15 @@
 			</div>
 
 	<script src="public/js/select.js"></script>
+
+
+<script>
+
+function init(){
+	document.getElementById("combustible").click();
+}
+
+</script>
 
 
 
