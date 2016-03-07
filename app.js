@@ -402,12 +402,13 @@ app.get('/registro',function(req,res){
 		
 	var options = {
         layout:"layout.html",
-        post: "/registro",
+        post: "/registro1",
         caden: caden,
         moura: moura,
         acdelco: acdelco,
         tam: "4",
-        autos
+        autos,
+        Dominio2: req.body.Dominio1
 
     };
     res.render('registro.html',options);
@@ -419,8 +420,39 @@ app.get('/registro',function(req,res){
 		res.redirect("/login")
 	};
 });
-
 app.post('/registro',function(req,res){
+	if(req.session && req.session.user){
+	Auto.find({},{_id:0,Dominio:1},function(err,autos){
+		if(err){console.log(err)}
+    Bateria.find({marca: "Caden"},function(err,caden){
+		if(err){console.log(err)}
+	Bateria.find({marca: "Moura"},function(err,moura){
+		if(err){console.log(err)}
+	Bateria.find({marca: "ACDelco"},function(err,acdelco){
+		if(err){console.log(err)}
+		
+
+	var options = {
+        layout:"layout.html",
+        post: "/registro1",
+        caden: caden,
+        moura: moura,
+        acdelco: acdelco,
+        tam: "4",
+        autos,
+        Dominio2: req.body.Dominio1
+    };
+    res.render('registro.html',options);
+});
+});
+});
+});
+	}else{
+		res.redirect("/login")
+	};
+});
+
+app.post('/registro1',function(req,res){
 	var today = new Date();
 
 	var data = {

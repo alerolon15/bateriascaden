@@ -4,7 +4,7 @@
 				<form name="f1" method="POST" action="{{post}}">
 					<div class="row">	
 						<label for="Dominio" class="labelRegistro col-xs-3">Dominio</label>
-						<input onkeyup="existe()" class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" style="text-transform:uppercase" onkeydown="javascript:this.value=this.value.toUpperCase();" autofocus required pattern="^[A-Z]{3}\d{3}$" autocomplete="off">
+						<input onkeyup="existe()" class="form-control col-xs-9" id="registro" type="text" name="Dominio" placeholder="Ingresar Dominio" style="text-transform:uppercase" onkeydown="javascript:this.value=this.value.toUpperCase();" autofocus required pattern="^[A-Z]{3}\d{3}$" autocomplete="off" value={{Dominio2}}>
 					</div>
 					<div class="row">
 						<label for="Marca" class="labelRegistro col-xs-3">Marca</label>
