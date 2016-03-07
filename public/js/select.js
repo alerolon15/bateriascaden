@@ -88,8 +88,8 @@ console.log(modeloscomp.indexOf('164V63.0'));
 
 	var Codigos = {
 		Golf : { 	
-				Diesel : ["MSA30HA","11B100E2","B-23 R BLUE"],
-				Nafta: ["MI28KD","11B070D1","B-21 BLUE"]
+				Diesel : ["MSA30HA","11B100E2","B-23R-BLUE"],
+				Nafta: ["MI28KD","11B070D1","B-21-BLUE"]
 		},
 	};
 function recomendar(){
