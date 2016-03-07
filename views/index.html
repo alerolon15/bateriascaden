@@ -23,7 +23,9 @@ function existe(){
 	coincidencia = autos.indexOf(search.toUpperCase());
 	if(coincidencia > -1){
 		$("#consulta").removeClass("disabled");
-	}else{$("#consulta").addClass("disabled");}
+		$("#crearnuevo").addClass("disabled");
+	}else{$("#consulta").addClass("disabled");
+		  $("#crearnuevo").removeClass("disabled")}
 };
 function copiar(){
 	var dominio1 = document.getElementById('domin').value;
